@@ -1,0 +1,12 @@
+ 
+  [[redirects]]
+  from = "/index.html"
+  to = "/hanju's-study-note.html"
+  status = 200
+  force=true
+
+[[redirects]]
+  from = "/"
+  to = "/hanju's-study-note.html"
+  status = 200
+  force=true
