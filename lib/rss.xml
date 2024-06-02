@@ -1,4 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Jun 2024 04:55:24 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Jun 2024 04:55:24 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Admonition]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Jun 2024 05:02:08 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Jun 2024 05:02:07 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Profile]]></title><description><![CDATA[ 
+ <br><br><br><br>
+안녕하세요. 백엔드 개발자 김한주입니다.<br>
+제 강점은 단순 기능 구현을 넘어 안정적인 상황을 목표로 개발하는 습관입니다.<br>
+또한, 다양한 기술 스택을 효율적으로 결합하여 안정적인 시스템을 만들어 나갑니다.<br>
+이를 위해 새로운 기술이나 도구를 습득하고 프로젝트에 적용하는 것에 있어서도 익숙합니다.
+<br><br><br><br><br><br>
+<br>Seoul National Universiry Of Sicence and Technology Major in Electronic IT Media, (2017.02 ~ 2023.02)
+<br>KIST (Korea Institute of Science and Technology / AI &amp; Robot Lab) Intern (2022.09.03 ~ 2023.02.19)
+<br>SSAFY (Samsung Software Academy Foy Youth) 10th Trainnee<br>
+(2023.07~2024.07)
+<br><br><br><br><br><br>
+<br>동계 한국방송미디어공학회 대학생 논문/캡스톤디자인 경진대회 최우수상 (2022.11.19)
+<br>전자IT미디어공학과 캡스톤디자인 경진대회 우수상 (2023.01.16)
+<br>삼성 청년 SW 아카데미 1학기 관통 프로젝트 최우수상 (2023.11.24)
+<br>삼성 청년 SW 아카데미 2학기 공통 프로젝트 우수상 (2024.2.29)
+<br>삼성 청년 SW 아카데미 2학기 특화 프로젝트 최우수상 (2024.4.04)
+<br>삼성 청년 SW 아카데미 2학기 기업연계 프로젝트 최우수상 (2024.6.06)
+<br><br><br>
+<br>한국데이터진흥원 SQL Developer 취득 (2022.12.09)
+<br>제7차 현대 Softeer 정기 역량 진단(HSAT) Level3 취득(2023.08.11)
+]]></description><link>hanju's-study-note.html</link><guid isPermaLink="false">Hanju's Study Note.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 05:01:51 GMT</pubDate></item><item><title><![CDATA[Admonition]]></title><description><![CDATA[ 
  <br>콜아웃과 비슷한 역할을 하는 플러그인입니다.<br>
 텍스트 블록을 강조하거나 숨길 수 있습니다. <br><br><br>Copy```ad-info
 내용
@@ -169,30 +190,7 @@ MAC 주소만으로는 모든 네트워크에 속한 호스트의 위치를 특�
 <br><br><br>
 <br>신뢰할 수 있는 통신과 연결형 통신을 지원하여 IP의 한계를 극복합니다.
 <br>포트번호를 통해 응용 계층의 애플리케이션 프로세스를 식별합니다.
-<br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" referrerpolicy="no-referrer">]]></description><link>network/l4-네트워크-계층.html</link><guid isPermaLink="false">Network/L4- 네트워크 계층.md</guid><pubDate>Sun, 02 Jun 2024 04:48:47 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Profile]]></title><description><![CDATA[ 
- <br><br>단순 기능 구현에 만족하지 않습니다. 신뢰성 있는 기능을 최우선 가치로 여깁니다.
- 안녕하세요. 백엔드 개발자 김한주입니다.<br>
-제 강점은 단순 기능 구현을 넘어 안정적인 상황을 목표로 개발하는 습관입니다.<br>
-또한, 다양한 기술 스택을 효율적으로 결합하여 안정적인 시스템을 만들어 나갑니다.<br>
-이를 위해 새로운 기술이나 도구를 습득하고 프로젝트에 적용하는 것에 있어서도 익숙합니다.
-<br><br><br><br>
-<br>Seoul National Universiry Of Sicence and Technology Major in Electronic IT Media, (2017.02 ~ 2023.02)
-<br>KIST (Korea Institute of Science and Technology / AI &amp; Robot Lab) Intern (2022.09.03 ~ 2023.02.19)
-<br>SSAFY (Samsung Software Academy Foy Youth) 10th Trainnee<br>
-(2023.07~2024.07)
-<br><br><br><br>
-<br>동계 한국방 |
-<br><br>
-<br>동계 한국방송미디어공학회 대학생 논문/캡스톤디자인 경진대회 최우수상 (2022.11.19)
-<br>전자IT미디어공학과 캡스톤디자인 경진대회 우수상 (2023.01.16)
-<br>삼성 청년 SW 아카데미 1학기 관통 프로젝트 최우수상 (2023.11.24)
-<br>삼성 청년 SW 아카데미 2학기 공통 프로젝트 우수상 (2024.2.29)
-<br>삼성 청년 SW 아카데미 2학기 특화 프로젝트 최우수상 (2024.4.04)
-<br>삼성 청년 SW 아카데미 2학기 기업연계 프로젝트 최우수상 (2024.6.06)
-<br><br>
-<br>한국데이터진흥원 SQL Developer 취득 (2022.12.09)
-<br>제7차 현대 Softeer 정기 역량 진단(HSAT) Level3 취득(2023.08.11)
-]]></description><link>hanju's-study-note.html</link><guid isPermaLink="false">Hanju's Study Note.md</guid><pubDate>Sun, 02 Jun 2024 04:34:56 GMT</pubDate></item><item><title><![CDATA[Widgets]]></title><description><![CDATA[ 
+<br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" referrerpolicy="no-referrer">]]></description><link>network/l4-네트워크-계층.html</link><guid isPermaLink="false">Network/L4- 네트워크 계층.md</guid><pubDate>Sun, 02 Jun 2024 04:48:47 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Widgets]]></title><description><![CDATA[ 
  <br>Widgets 플러그인은 옵시디언 노트에 시계, 인용구, D-day 위젯을 추가하는 플러그인입니다.<br><br>명령어&nbsp;Add Widget을 실행해 사용하거나, 코드 블럭을 작성해 사용합니다.<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
 type: clock
 ```
