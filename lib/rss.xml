@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Jun 2024 02:51:05 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Jun 2024 02:51:04 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Admonition]]></title><description><![CDATA[ 
+ <br>콜아웃과 비슷한 역할을 하는 플러그인입니다. 텍스트 블록을 강조하거나 숨길 수 있습니다. <br><br><br>Copy```ad-info
+내용
+```
+Copy<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
+title: 제목
+내용
+```
+Copy<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/digqLY/btsEAh29eLd/vxVBVwAW5qbMpbtXt0Xwkk/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
+title: 
+내용
+```
+Copy<br>title의 값을 비워두면 제목 부분이 출력되지 않습니다.&nbsp;<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/nVGli/btsEA3iYRg0/No405BWjZ8s3PEVCl9nMXK/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
+collapse: open
+내용
+```
+Copy<br>collapse에 open, close를 추가합니다. open은 기본적으로 펴지게하고, close는 기본으로 접혀있습니다.<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/vZJMO/btsEAXwzRRM/ywAIRIiAWWHzEhTDHziaf0/img.png" referrerpolicy="no-referrer"><br><br>Copy```ad-info
+icon: triforce
+내용
+```
+Copy<br>기본 아이콘을 변경할 수 있습니다. 아이콘&nbsp;이름은&nbsp;FontAwesome&nbsp;또는&nbsp;RPGA&nbsp;wesome의&nbsp;아이콘&nbsp;이름이어야&nbsp;하며&nbsp;그렇지&nbsp;않으면&nbsp;작동하지&nbsp;않습니다.<br><br>Copy```ad-info
+color: 200, 200, 200
+내용
+```
+Copy<br>색상을 변경할려면 RGB 트라이어드 값을 사용하면 됩니다. RGB 트라이어드는 쉼표로 구분된 세 개의 정수로 입력해야 하며 0에서 255 사이여야 합니다.<br><br><br>
+<br>ad-note, ad-info, ad-todo (파란색)
+<br>ad-abstract, ad-summary, ad-tldr, ad-tip, ad-hint, ad-important (하늘색)
+<br>ad-success, ad-check, ad-done (녹색)
+<br>ad-question, ad-help, ad-faq, ad-warning, ad-caution, ad-attention (주황색)
+<br>ad-failure, ad-fail, ad-missing, ad-danger, ad-error, ad-bug (빨간색)
+<br>ad-example (보라색)
+<br>ad-quote, ad-cite (회색)
+<br><br><br><a data-tooltip-position="top" aria-label="MarkDown/MarkDown 문법/MarkDown 문법" data-href="MarkDown/MarkDown 문법/MarkDown 문법" href="markdown/markdown-문법/markdown-문법.html" class="internal-link" target="_self" rel="noopener">MarkDown 문법</a>]]></description><link>markdown/markdown-문법/admonition.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/Admonition.md</guid><pubDate>Sun, 02 Jun 2024 02:08:28 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[헤딩]]></title><description><![CDATA[ 
+ <br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br>
+<br>제목을 만들려면 # 을 입력하고 그 뒤에 텍스트를 입력합니다. 
+<br>#의 개수로 헤딩 레벨을 조정할 수 있습니다. 
+<br>6개까지 가능합니다.
+<br># heading 1
+## heading 2
+### heading 3
+#### heading 4
+##### heading 5
+###### heading 6
+Copy<br><br>굵은 텍스트나 기울인 텍스트를 만들려면, 텍스트를 * 나 _ 로 감쌉니다. <br>*기울임*
+_기울임_
+**굵게**
+__굵게기울림__
+***굵게기울림***
+___굵게기울림___
+Copy<br><br>내부 링크는 위키 링크와 마크다운 링크로 만듭니다.<br><br>위키링크 [[문서링크]]
+Copy<br><br>외부 링크는 마크 다운 링크만 사용가능합니다. <br>[Google](http://google.com)
+Copy<br><br>크기를 조정하려면 이미지 이름 뒤 |너비x높이 를 추가합니다. <br>![[image.jpg|640x480]]
+![제목|640x480](image.jpg)
+Copy<br>너비만 지정하면 이미지는 원래의 종횡비를 유지합니다. <br>![[image.jpg|100]]
+![제목|100](image.jpg)
+Copy<br><a class="internal-link" href="markdown/markdown-문법/admonition.html" target="_self"></a>콜아웃과 비슷한 역할을 하는 플러그인입니다. 텍스트 블록을 강조하거나 숨길 수 있습니다.2024. 6. 2. 오전 11:08:28<a class="internal-link" href="markdown/markdown-문법/widgets.html" target="_self"></a>Widgets 플러그인은 옵시디언 노트에 시계, 인용구, D-day 위젯을 추가하는 플러그인입니다.2024. 6. 2. 오전 11:10:41]]></description><link>markdown/markdown-문법/markdown-문법.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/MarkDown 문법.md</guid><pubDate>Sun, 02 Jun 2024 01:54:50 GMT</pubDate></item><item><title><![CDATA[Widgets]]></title><description><![CDATA[ 
+ <br>Widgets 플러그인은 옵시디언 노트에 시계, 인용구, D-day 위젯을 추가하는 플러그인입니다.<br><br>명령어&nbsp;Add Widget을 실행해 사용하거나, 코드 블럭을 작성해 사용합니다.<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
+type: clock
+```
+Copy<br>
+<br>type: quote
+<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/LATXf/btsFjJKgkkf/UFl6jM1AS2hG33sIEajgsK/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
+type: quote
+quote: Lorem ipsum dolor sit amet
+author: Lorem Ipsum
+```
+Copy<br>
+<br>type: quote
+<br>quote: 인용구
+<br>author: 저자(옵션)
+<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/L2eOb/btsFhexsXHx/lawfVCcbSnTdVIPCuuP4f1/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
+type: countdown
+date: 2024-01-01 00:00:00
+to: New Year! 🎉
+```
+Copy<br>
+<br>type: countdown
+<br>date: 시간 포맷은&nbsp;YYYY-MM-DD HH:MM:SS로 설정
+<br>to: 설명(옵션)
+]]></description><link>markdown/markdown-문법/widgets.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/Widgets.md</guid><pubDate>Sun, 02 Jun 2024 02:10:41 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[상위문서]]></title><description><![CDATA[ 
+ <br><br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br>
+<br>옵시디언에서 시각적 요소를 커스텀하기 위한 Snippets입니다. 
+<br>텍스트 색상, 폰트 크기, 간격, 배경색 등 다양한 스타일링 옵션을 사용자가 직접 조정할 수 있습니다. 
+<br><br><br><br>
+<br>옵시디언 설정에서 Appearance 섹션으로 이동하여 CSS Snippets 부분을 찾습니다. 
+<br>폴더 아이콘을 클릭하면 스니펫을 저장할 폴더가 열립니다. 
+<br><br>
+<br>윈도우 사용자
+
+<br>스니펫 폴더 안에서 우클릭하여 새파일을 선택합니다. 
+<br>파일의 확장자를 .txt 에서 .css 로 변경합니다. 
+<br>이 파일 안에 원하는 css 를 입력합니다. 
+
+
+<br>맥 사용자
+
+<br>스포트라이트 검색을 사용하여 텍스트 편집기를 열고 새 문서를 생성합니다. 
+<br>cmd + shift + t 단축키를 사용해 텍스트 파일로 설정한 다음, 파일을 .css 확장자로 저장합니다. 
+<br>저장한 파일을 CSS 스니펫 폴더로 이동시키면 됩니다.
+
+
+<br><br>
+<br>CSS 파일을 CSS Snippets 폴더에 저장합니다.
+<br>옵시디언 설정에서 CSS 스니펫 섹션으로 이동합니다.
+<br>새로 생성한 CSS 파일을 활성화합니다. 
+<br><br><br>
+<br>플러그인 설치후 cmd/ctrl + p 를 눌러 명령어 커맨드를 실행합니다.
+<br>Create CSS Snippets 를 클릭합니다. 
+<br>파일 이름을 작성합니다. 
+<br>Vault 이름/./obsidian/snippets 에 CSS 파일이 생성됩니다. 
+<br><br>
+<br>edit CSS Snippets를 실행하여 수정할 CSS 파일을 열어 코드를 수정할 수 있습니다. 
+]]></description><link>markdown/3.-css-snippets.html</link><guid isPermaLink="false">MarkDown/3. Css Snippets.md</guid><pubDate>Sun, 02 Jun 2024 02:05:46 GMT</pubDate></item><item><title><![CDATA[개요]]></title><description><![CDATA[ 
+ <br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br>노트를 가장 찾기 쉬운 방법은 검색을 사용하는 것입니다. 검색 기능을 잘 활용하면 자신의 노트를 보다 효율적으로 관리하고 필요한 정보를 쉽게 찾을 수 있습니다. <br><br>
+<br>옵시디언 리본 바에서 설정을 열고, 코어 플러그인 섹션에서 검색을 찾아 활성화합니다. 
+<br><br>
+<br>Aa&nbsp;- 대소문자 구분 여부 선택합니다.
+<br>검색 결과 축소&nbsp;- 활성화시 제목만 출력, 비활성화하면 내용검색까지 출력합니다.
+<br>앞뒤로 표시&nbsp;- 더 많은 검색 결과를 좁은 줄간격으로 출력합니다.
+<br>검색 단어 표시&nbsp;- 입력한 검색 쿼리문의 해석을 보여줍니다.
+<br>result (...)&nbsp;- 검색 결과를 리스트 형식으로 복사합니다.
+<br>파일 이름(알파벳순)&nbsp;- 파일 이름, 업데이트 날짜, 작성일 기준으로 정렬순서를 변경합니다.
+<br><br><br>검색어를 입력하면 해당 단어를 포함한 노트를 검색합니다.<br>검색어
+Copy<br><br>A와 B를 모두 포함한 노트를 검색합니다.<br>A B
+Copy<br><br>쌍따옴표("")를 사용하면 해당 구문을 정확히 포함하는 노트만 검색합니다.<br>"A B"
+Copy<br><br>
+<br>file:: 파일명을 검색합니다.
+<br>path:: 파일경로를 검색하고 경로내 모든 노트를 검색결과로 나타냅니다.
+<br>content:: 파일 내용만 검색합니다. 파일명, 폴더 경로는 제외됩니다.
+<br>section:: 특정 섹션으로 검색합니다.
+<br>block:: 블록단위로 검색합니다.
+<br>line:: 검색어가 포함되어있는 라인을 줄을 검색합니다.
+<br>tag:: 태그를 검색합니다.
+<br>task:: task를 검색합니다.
+<br>task-todo:: 미완료된 task만 검색합니다.
+<br>task-done:: 완료된 task만 검색합니다.
+<br>["프로퍼티"]: 프로퍼티 이름을 검색합니다.
+<br><br><br>
+<br>노트 제목 일부를 입력하여 빠른 이동을 할 수 있습니다. 
+<br>Cmd/Ctrl + O 를 눌러 시작하고, 메모를 검색하여 이동합니다. 
+<br>노트 이름이 기억나지 않을 때, 이동하지 못합니다. 
+<br><br>
+<br>노트 내용을 검색해 빠른 이동을 할 수 있습니다. 
+<br>Ctrl + Shift + F 로 검색하여 이동합니다. 
+<br>사이드바 탭에서 검색 플러그인을 찾을 수 있습니다. 
+]]></description><link>markdown/4.-검색-기능.html</link><guid isPermaLink="false">MarkDown/4. 검색 기능.md</guid><pubDate>Sun, 02 Jun 2024 01:45:11 GMT</pubDate></item><item><title><![CDATA[개요]]></title><description><![CDATA[ 
+ <br><br>마크다운은 글을 읽고 쓰고, 편집하기 쉬운 목적으로 만들어진 문서 작성을 위한 형식입니다.<br>
+문법이 간결하고 HTML 삽입이 가능합니다. <br>마크 다운을 작성한 문서의 표현방식은 CSS 설정에 따라 달라집니다.<br>
+CSS를 커스터마이징하고 싶다면 아래의 CSS Snippet 문서를 참고합니다. <br><br>
+<br>문법이 간결하고 쉽다. 
+<br>웹사이트, 문서, 메모, 기술 문서등 대부분의 것들에 사용할 수 있다. 
+<br>지원 플랫폼이 많다. 
+<br>대부분의 환경에서 편집 및 작성이 가능하다. (심지어 메모장도 가능)
+<br>텍스트로 저장하여 용량이 적다. 
+<br><br>
+<br>모든 HTML을 포괄하지 않는다. 
+<br>표준이 없기 때문에 뷰어에 따라 결과물이 달라진다. (github와 notion, discord, obsidian 전부 다르다.)
+<br>마크 다운으로 파일(이미지)를 업로드 하는 경우 저장한 다음 파일 경로를 입력해야한다. 
+]]></description><link>markdown/markdown.html</link><guid isPermaLink="false">MarkDown/MarkDown.md</guid><pubDate>Sun, 02 Jun 2024 01:16:53 GMT</pubDate></item><item><title><![CDATA[L3- 네트워크 계층]]></title><description><![CDATA[ 
+ <br><a data-href="Network" href="network/network.html" class="internal-link" target="_self" rel="noopener">Network</a><br>
+데이터 링크 계층에는 송수신지를 특정할 수 있는 MAC 주소가 있습니다. 이를 바탕으로 다른 도시, 국가에 있는 수신지로 전송이 가능할까요??
+<br>
+<br>
+첫째, 물리 계층과 데이터 링크 계층만으로는 다른 네트워크까지의 도달 경로를 파악하기 어렵습니다.
+LAN A속한 호스트와 LAN B에 속한 호스트가 통신하기 위해, 패킷은 다양한 경로를 통해 이동할 수 있습니다.
+패킷이 이동할 최적의 경로를 정하는 것을 라우팅이라합니다.
+
+<br>
+MAC 주소만으로는 모든 네트워크에 속한 호스트의 위치를 특정하기 어렵습니다.
+
+<br>호스트가 네트워크에 속한 다른 호스트의 MAC 주소를 전부알기가 어렵습니다.
+  → MAC 주소만으로는 이 세상에 있는 모든 호스트를 특정할 수 없습니다.<br>
+
+<br>택배의 수신인 역할을 MAC주소라면, 수신지는 IP 주소입니다.
+
+<br>MAC과 IP주소를 함께사용하고 IP 주소를 우선적으로 사용합니다.<br>
+
+
+
+
+
+<br><br><a data-tooltip-position="top" aria-label="https://hanju.gitbook.io/studynote/undefined/l3#undefined-1" rel="noopener" class="external-link" href="https://hanju.gitbook.io/studynote/undefined/l3#undefined-1" target="_blank"></a><br>네트워크 계층의 역할<br>네트워크 계층(Network Layer)은 OSI 모델(Open Systems Interconnection model)의 세 번째 계층입니다. 네트워크 계층의 주요 역할과 기능은 다음과 같습니다:<br>
+<br>라우팅(Routing): 네트워크 계층은 데이터 패킷을 출발지에서 목적지까지 전달하는 경로를 결정합니다. 이를 위해 다양한 라우팅 알고리즘과 프로토콜을 사용합니다.
+<br>논리적 주소 지정(Logical Addressing): 네트워크 계층은 각 장치에 논리적인 주소(IP 주소)를 부여하여 서로 다른 네트워크 간의 통신을 가능하게 합니다. IP 주소는 인터넷 프로토콜(IPv4, IPv6)을 통해 할당됩니다.
+<br>패킷 포워딩(Packet Forwarding): 네트워크 계층은 패킷을 올바른 목적지로 전달하기 위해 다음 홉(Next Hop)을 결정하고 패킷을 전달합니다.
+<br>혼잡 제어(Congestion Control): 네트워크의 과부하를 방지하고 효율적인 데이터 전송을 위해 혼잡 제어 메커니즘을 사용합니다.
+<br>프레임 분할과 재조합(Fragmentation and Reassembly): 데이터가 전송되는 동안 네트워크의 최대 전송 단위(MTU)를 초과할 경우, 네트워크 계층은 큰 데이터를 작은 패킷으로 분할하고, 수신 측에서 이를 다시 조합합니다.
+<br>네트워크 계층에서 사용되는 대표적인 프로토콜로는 IP(Internet Protocol)가 있으며, 이 외에도 ICMP(Internet Control Message Protocol), ARP(Address Resolution Protocol) 등이 있습니다. 네트워크 계층은 네트워크의 안정성과 효율성을 유지하기 위해 중요한 역할을 합니다.]]></description><link>network/l3-네트워크-계층.html</link><guid isPermaLink="false">Network/L3- 네트워크 계층.md</guid><pubDate>Sun, 02 Jun 2024 00:48:58 GMT</pubDate></item><item><title><![CDATA[IP의 한계]]></title><description><![CDATA[ 
+ <br><a data-href="Network" href="network/network.html" class="internal-link" target="_self" rel="noopener">Network</a><br><br>
+<br>신뢰할 수 없는 통신입니다.
+<br>비연결형 통신입니다.
+<br><br>
+<br>신뢰할 수 있는 통신과 연결형 통신을 지원하여 IP의 한계를 극복합니다.
+<br>포트번호를 통해 응용 계층의 애플리케이션 프로세스를 식별합니다.
+<br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" referrerpolicy="no-referrer">]]></description><link>network/l4-네트워크-계층.html</link><guid isPermaLink="false">Network/L4- 네트워크 계층.md</guid><pubDate>Sun, 02 Jun 2024 00:52:33 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Network]]></title><description><![CDATA[ 
+ ]]></description><link>network/network.html</link><guid isPermaLink="false">Network/Network.md</guid><pubDate>Sun, 02 Jun 2024 00:49:06 GMT</pubDate></item><item><title><![CDATA[Hanju's Study Note]]></title><description><![CDATA[ 
+ <br>dayshoursminutesseconds프로그래머스 코딩전문역량인증 시험 [PCCP]<br>dayshoursminutesseconds정보처리기사 필기 시험 접수]]></description><link>hanju&apos;s-study-note.html</link><guid isPermaLink="false">Hanju&apos;s Study Note.md</guid><pubDate>Sun, 02 Jun 2024 02:18:28 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sun, 02 Jun 2024 02:03:57 GMT</pubDate></item></channel></rss>
