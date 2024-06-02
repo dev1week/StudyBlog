@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Jun 2024 11:42:59 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Jun 2024 11:42:54 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[ALB - Application Load Balancer]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Jun 2024 12:23:09 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Jun 2024 12:23:05 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[ALB - Application Load Balancer]]></title><description><![CDATA[ 
  <br><br>
 7계층에서 동작하는 로드밸런서 입니다. 트래픽을 균형있게 나누어줍니다.
 <br><br>
@@ -45,7 +45,7 @@ SSL Offloading을 지원합니다.
 <br>
 교차 영역 로드 밸런싱을 통해 AZ의 모든 타겟 그룹에 트래픽을 분산합니다.
 
-<br><a data-href="고가용성 및 스케일링" href="고가용성 및 스케일링" class="internal-link" target="_self" rel="noopener">고가용성 및 스케일링</a>]]></description><link>0.-aws/1.-고가용성-및-스케일링/alb/alb.html</link><guid isPermaLink="false">0. AWS/1. 고가용성 및 스케일링/ALB/ALB.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 07:09:51 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FuEVaLGfjsShiUrHBYllh%252Fimage.png%3Falt%3Dmedia%26token%3Df5a11a54-fadd-49e5-ad48-5973920829bc&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=af6f198d520aed36cd5bd6b758108b905fd27ff37c455b31fa04467eb73f43e1" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FuEVaLGfjsShiUrHBYllh%252Fimage.png%3Falt%3Dmedia%26token%3Df5a11a54-fadd-49e5-ad48-5973920829bc&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=af6f198d520aed36cd5bd6b758108b905fd27ff37c455b31fa04467eb73f43e1"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[고가용성]]></title><description><![CDATA[<a class="tag" href="?query=tag:AWS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#AWS</a> 
+<br><a data-href="고가용성 및 스케일링" href="고가용성 및 스케일링" class="internal-link" target="_self" rel="noopener">고가용성 및 스케일링</a>]]></description><link>0.-aws/1.-고가용성-및-스케일링/alb/alb.html</link><guid isPermaLink="false">0. AWS/1. 고가용성 및 스케일링/ALB/ALB.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 07:09:51 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FuEVaLGfjsShiUrHBYllh%252Fimage.png%3Falt%3Dmedia%26token%3Df5a11a54-fadd-49e5-ad48-5973920829bc&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=af6f198d520aed36cd5bd6b758108b905fd27ff37c455b31fa04467eb73f43e1" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FuEVaLGfjsShiUrHBYllh%252Fimage.png%3Falt%3Dmedia%26token%3Df5a11a54-fadd-49e5-ad48-5973920829bc&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=af6f198d520aed36cd5bd6b758108b905fd27ff37c455b31fa04467eb73f43e1&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[고가용성]]></title><description><![CDATA[<a class="tag" href="?query=tag:AWS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#AWS</a> 
  <br><br><br>
 고가용성은 시스템이 예상치 못한 장애나 문제에도 계속해서 가용하고 작동하는 능력을 가리킵니다. 이는 시스템의 가용성을 유지하기 위해 여러 가용 영역에 걸쳐 리소스를 분산하는 등의 방법을 포함할 수 있습니다.
 <br><br><br>
@@ -236,7 +236,7 @@ json, yaml 문법에서 각 참조 방식이 난해합니다.
 <br>반면에 json은 데이터를 표현하는 포멧이기 때문에 참조값 추적이 난해합니다.
 
 
-<br>]]></description><link>0.-aws/1.-iac/cloudformation/cloudformation.html</link><guid isPermaLink="false">0. AWS/1. IaC/CloudFormation/CloudFormation.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 10:42:28 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FSGEXGnQfYFl1GV94AXeZ%252Fimage.png%3Falt%3Dmedia%26token%3Dbc8a4eca-5c7a-4f79-bdfa-432e12b2e396&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=c1ce24f89c350ac9d93c8516d900243166fce2b0bc7954435800b0b33facf49a" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FSGEXGnQfYFl1GV94AXeZ%252Fimage.png%3Falt%3Dmedia%26token%3Dbc8a4eca-5c7a-4f79-bdfa-432e12b2e396&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=c1ce24f89c350ac9d93c8516d900243166fce2b0bc7954435800b0b33facf49a"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<font color="#8064a2">IaC Overview</font>]]></title><description><![CDATA[<a class="tag" href="?query=tag:AWS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#AWS</a> 
+<br>]]></description><link>0.-aws/1.-iac/cloudformation/cloudformation.html</link><guid isPermaLink="false">0. AWS/1. IaC/CloudFormation/CloudFormation.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 10:42:28 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FSGEXGnQfYFl1GV94AXeZ%252Fimage.png%3Falt%3Dmedia%26token%3Dbc8a4eca-5c7a-4f79-bdfa-432e12b2e396&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=c1ce24f89c350ac9d93c8516d900243166fce2b0bc7954435800b0b33facf49a" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FSGEXGnQfYFl1GV94AXeZ%252Fimage.png%3Falt%3Dmedia%26token%3Dbc8a4eca-5c7a-4f79-bdfa-432e12b2e396&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=c1ce24f89c350ac9d93c8516d900243166fce2b0bc7954435800b0b33facf49a&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<font color="#8064a2">IaC Overview</font>]]></title><description><![CDATA[<a class="tag" href="?query=tag:AWS" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#AWS</a> 
  <br><br><br>IaC는 "Infrastructure as Code"의 약자로, 인프라스트럭처를 코드로 정의하고 관리하는 방식을 가리킵니다. 이는 개발자나 시스템 관리자가 코드를 사용하여 인프라 리소스를 프로비저닝하고 구성하는 것을 의미합니다.<br><br><br>
 <br>
 일관성: 코드로 정의된 인프라는 반복 가능하며, 인프라 구성이 일관되고 예측 가능하게 됩니다.
@@ -262,33 +262,186 @@ json, yaml 문법에서 각 참조 방식이 난해합니다.
 <br>글로벌 인프라: AWS는 전 세계에 걸쳐 다양한 리전과 가용 영역을 제공하여 개발자가 애플리케이션을 전 세계적으로 배포하고 사용자에게 접근할 수 있도록 합니다.
 <br>자동화 및 관리: AWS는 다양한 자동화 도구와 관리 서비스를 제공하여 개발자가 애플리케이션을 효율적으로 관리하고 유지보수할 수 있도록 지원합니다. 예를 들어, AWS Elastic Beanstalk, AWS Lambda, AWS CloudFormation 등의 서비스를 통해 개발 및 배포 과정을 자동화할 수 있습니다.
 <br><a data-href="1. 고가용성 및 스케일링" href="0.-aws/1.-고가용성-및-스케일링/1.-고가용성-및-스케일링.html" class="internal-link" target="_self" rel="noopener">1. 고가용성 및 스케일링</a><br>
-<a data-href="1. IaC" href="0.-aws/1.-iac/1.-iac.html" class="internal-link" target="_self" rel="noopener">1. IaC</a><br><a href=".?query=tag:Root" class="tag" target="_blank" rel="noopener">#Root</a>]]></description><link>0.-aws/0.-aws.html</link><guid isPermaLink="false">0. AWS/0. AWS.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:06:47 GMT</pubDate></item><item><title><![CDATA[Untitled Overview]]></title><description><![CDATA[ 
- <br><br><a data-href="데코레이터" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/데코레이터.html" class="internal-link" target="_self" rel="noopener">데코레이터</a><br>
-<a data-href="복합체" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/복합체.html" class="internal-link" target="_self" rel="noopener">복합체</a><br>
-<a data-href="브리지" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/브리지.html" class="internal-link" target="_self" rel="noopener">브리지</a><br>
-<a data-href="어댑터" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/어댑터.html" class="internal-link" target="_self" rel="noopener">어댑터</a><br>
-<a data-href="파사드" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/파사드.html" class="internal-link" target="_self" rel="noopener">파사드</a><br>
-<a data-href="프록시" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/프록시.html" class="internal-link" target="_self" rel="noopener">프록시</a><br>
-<a data-href="플라이웨이트" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/플라이웨이트.html" class="internal-link" target="_self" rel="noopener">플라이웨이트</a>]]></description><link>0.-clean-code/1.-design-pattern/2.-구조-패턴/2.-구조-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 구조 패턴/2. 구조 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:06:34 GMT</pubDate></item><item><title><![CDATA[데코레이터]]></title><description><![CDATA[ 
+<a data-href="1. IaC" href="0.-aws/1.-iac/1.-iac.html" class="internal-link" target="_self" rel="noopener">1. IaC</a><br><a href=".?query=tag:Root" class="tag" target="_blank" rel="noopener">#Root</a>]]></description><link>0.-aws/0.-aws.html</link><guid isPermaLink="false">0. AWS/0. AWS.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:06:47 GMT</pubDate></item><item><title><![CDATA[구조 패턴]]></title><description><![CDATA[ 
+ <br><br>
+클래스와 객체를 효율적으로 구성하여 더 큰 구조를 형성하고, 서로 간의 관계를 단순화하고 유연하게 만드는 디자인 패턴의 한 유형입니다.
+<br><br>
+<br><a data-href="데코레이터" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/데코레이터.html" class="internal-link" target="_self" rel="noopener">데코레이터</a>: 객체에 동적으로 새로운 행동이나 상태를 추가할 수 있게 해주는 패턴.
+<br><a data-href="복합체" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/복합체.html" class="internal-link" target="_self" rel="noopener">복합체</a>(Composite): 객체들을 트리 구조로 구성하여 부분-전체 계층을 구현하고, 개별 객체와 복합 객체를 동일하게 다루는 패턴.
+<br><a data-href="브리지" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/브리지.html" class="internal-link" target="_self" rel="noopener">브리지</a>(Bridge): 추상적인 부분과 구체적인 구현 부분을 분리하여 독립적으로 변형할 수 있게 해주는 패턴.
+<br><a data-href="어댑터" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/어댑터.html" class="internal-link" target="_self" rel="noopener">어댑터</a> (Adapter): 기존 인터페이스를 다른 인터페이스로 변환하여 호환되지 않는 인터페이스들 간의 협력을 가능하게 해주는 패턴.
+<br><a data-href="파사드" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/파사드.html" class="internal-link" target="_self" rel="noopener">파사드</a> (Facade): 서브시스템에 대한 간단한 인터페이스를 제공하여 복잡한 서브시스템을 쉽게 사용할 수 있게 해주는 패턴.
+<br><a data-href="프록시" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/프록시.html" class="internal-link" target="_self" rel="noopener">프록시</a> (Proxy): 다른 객체에 대한 접근을 제어하기 위해 대리자나 자리 채움 객체를 제공하는 패턴.
+<br><a data-href="플라이웨이트" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/플라이웨이트.html" class="internal-link" target="_self" rel="noopener">플라이웨이트</a> (Flyweight): 다수의 작은 객체들을 효율적으로 지원하기 위해 공유를 통해 메모리를 절약하는 패턴.
+<br> : ]]></description><link>0.-clean-code/1.-design-pattern/2.-구조-패턴/2.-구조-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 구조 패턴/2. 구조 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 12:00:12 GMT</pubDate></item><item><title><![CDATA[데코레이터]]></title><description><![CDATA[ 
  ]]></description><link>0.-clean-code/1.-design-pattern/2.-구조-패턴/데코레이터.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 구조 패턴/데코레이터.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:05:49 GMT</pubDate></item><item><title><![CDATA[플라이웨이트]]></title><description><![CDATA[ 
- ]]></description><link>0.-clean-code/1.-design-pattern/2.-구조-패턴/플라이웨이트.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 구조 패턴/플라이웨이트.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:06:02 GMT</pubDate></item><item><title><![CDATA[Untitled Overview]]></title><description><![CDATA[ 
- <br><br><a data-href="빌더" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/빌더.html" class="internal-link" target="_self" rel="noopener">빌더</a><br>
-<a data-href="싱글톤" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/싱글톤.html" class="internal-link" target="_self" rel="noopener">싱글톤</a><br>
-<a data-href="추상 팩토리" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/추상-팩토리.html" class="internal-link" target="_self" rel="noopener">추상 팩토리</a><br>
-<a data-href="팩토리" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/팩토리.html" class="internal-link" target="_self" rel="noopener">팩토리</a><br>
-<a data-href="프로토타입" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/프로토타입.html" class="internal-link" target="_self" rel="noopener">프로토타입</a>]]></description><link>0.-clean-code/1.-design-pattern/2.-생성-패턴/2.-생성-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 생성 패턴/2. 생성 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:00:32 GMT</pubDate></item><item><title><![CDATA[추상 팩토리]]></title><description><![CDATA[ 
+ ]]></description><link>0.-clean-code/1.-design-pattern/2.-구조-패턴/플라이웨이트.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 구조 패턴/플라이웨이트.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:06:02 GMT</pubDate></item><item><title><![CDATA[생성 패턴]]></title><description><![CDATA[ 
+ <br><br>
+객체 생성 메커니즘을 다루는 디자인 패턴의 한 유형입니다.
+<br><br>
+<br><a data-href="빌더" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/빌더.html" class="internal-link" target="_self" rel="noopener">빌더</a> (Builder): 객체의 생성 과정을 단계별로 나누고, 다양한 표현을 통해 동일한 생성 절차를 수행할 수 있게 하는 패턴.
+<br><a data-href="싱글톤" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/싱글톤.html" class="internal-link" target="_self" rel="noopener">싱글톤</a> (Singleton): 클래스의 인스턴스를 하나만 생성하여 전역에서 접근할 수 있도록 보장하는 패턴.
+<br><a data-href="추상 팩토리" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/추상-팩토리.html" class="internal-link" target="_self" rel="noopener">추상 팩토리</a> (Abstract Factory): 관련된 객체들을 구체적인 클래스에 의존하지 않고 생성할 수 있게 해주는 인터페이스를 제공하는 패턴.
+<br><a data-href="팩토리" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/팩토리.html" class="internal-link" target="_self" rel="noopener">팩토리</a>(Factory Method): 객체 생성을 서브클래스에서 정의할 수 있도록 하여 객체 생성의 인터페이스를 정의하지만, 실제 객체 생성은 서브클래스에서 처리하는 패턴.
+<br><a data-href="프로토타입" href="0.-clean-code/1.-design-pattern/2.-생성-패턴/프로토타입.html" class="internal-link" target="_self" rel="noopener">프로토타입</a>(Prototype): 새 객체를 생성할 때, 기존 객체를 복사하여 생성하는 패턴.
+]]></description><link>0.-clean-code/1.-design-pattern/2.-생성-패턴/2.-생성-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 생성 패턴/2. 생성 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:58:52 GMT</pubDate></item><item><title><![CDATA[추상 팩토리]]></title><description><![CDATA[ 
  ]]></description><link>0.-clean-code/1.-design-pattern/2.-생성-패턴/추상-팩토리.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 생성 패턴/추상 팩토리.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 10:59:40 GMT</pubDate></item><item><title><![CDATA[프로토타입]]></title><description><![CDATA[ 
- ]]></description><link>0.-clean-code/1.-design-pattern/2.-생성-패턴/프로토타입.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 생성 패턴/프로토타입.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:00:02 GMT</pubDate></item><item><title><![CDATA[Untitled Overview]]></title><description><![CDATA[ 
- <br><br><a data-href="메멘토" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/메멘토.html" class="internal-link" target="_self" rel="noopener">메멘토</a><br>
-<a data-href="반복자" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/반복자.html" class="internal-link" target="_self" rel="noopener">반복자</a><br>
-<a data-href="비지터" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/비지터.html" class="internal-link" target="_self" rel="noopener">비지터</a><br>
-<a data-href="상태" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/상태.html" class="internal-link" target="_self" rel="noopener">상태</a><br>
-<a data-href="옵서버" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/옵서버.html" class="internal-link" target="_self" rel="noopener">옵서버</a><br>
-<a data-href="전략" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/전략.html" class="internal-link" target="_self" rel="noopener">전략</a><br>
-<a data-href="중재자" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/중재자.html" class="internal-link" target="_self" rel="noopener">중재자</a><br>
-<a data-href="책임연쇄" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/책임연쇄.html" class="internal-link" target="_self" rel="noopener">책임연쇄</a><br>
-<a data-href="커맨드" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/커맨드.html" class="internal-link" target="_self" rel="noopener">커맨드</a><br>
-<a data-href="템플릿 메서드" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/템플릿-메서드.html" class="internal-link" target="_self" rel="noopener">템플릿 메서드</a>]]></description><link>0.-clean-code/1.-design-pattern/2.-행동-패턴/2.-행동-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 행동 패턴/2. 행동 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:04:53 GMT</pubDate></item><item><title><![CDATA[템플릿 메서드]]></title><description><![CDATA[ 
+ ]]></description><link>0.-clean-code/1.-design-pattern/2.-생성-패턴/프로토타입.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 생성 패턴/프로토타입.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:00:02 GMT</pubDate></item><item><title><![CDATA[행동패턴]]></title><description><![CDATA[ 
+ <br><br>
+객체 간의 상호 작용과 알고리즘 분배에 중점을 둔 디자인 패턴의 한 유형입니다.
+<br><br>
+<br><a data-href="메멘토" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/메멘토.html" class="internal-link" target="_self" rel="noopener">메멘토</a> (Memento): 객체의 상태를 저장하고 나중에 복원할 수 있도록 하여 객체의 상태 변화를 기록하는 패턴.
+<br><a data-href="반복자" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/반복자.html" class="internal-link" target="_self" rel="noopener">반복자</a> (Iterator): 컬렉션의 요소들을 순차적으로 접근할 수 있게 해주는 패턴.
+<br><a data-href="비지터" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/비지터.html" class="internal-link" target="_self" rel="noopener">비지터</a> (Visitor): 객체 구조를 변경하지 않고도 새로운 기능을 추가할 수 있게 해주는 패턴.
+<br><a data-href="상태" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/상태.html" class="internal-link" target="_self" rel="noopener">상태</a> (State): 객체의 상태에 따라 행동을 변경할 수 있게 해주는 패턴.
+<br><a data-href="옵서버" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/옵서버.html" class="internal-link" target="_self" rel="noopener">옵서버</a> (Observer): 한 객체의 상태 변화에 따라 다른 객체들에게 통지하고 자동으로 갱신할 수 있게 해주는 패턴.
+<br><a data-href="전략" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/전략.html" class="internal-link" target="_self" rel="noopener">전략</a> (Strategy): 동일한 문제를 해결하는 여러 알고리즘을 캡슐화하여 상호 교환 가능하게 해주는 패턴.
+<br><a data-href="중재자" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/중재자.html" class="internal-link" target="_self" rel="noopener">중재자</a> (Mediator): 객체들이 직접 통신하지 않고 중재자를 통해 통신하여 객체 간의 상호작용을 캡슐화하는 패턴.
+<br><a data-href="책임연쇄" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/책임연쇄.html" class="internal-link" target="_self" rel="noopener">책임연쇄</a> (Chain of Responsibility): 요청을 처리할 수 있는 기회가 여러 객체에게 주어져, 요청이 처리될 때까지 객체들을 순차적으로 전달하는 패턴.
+<br><a data-href="커맨드" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/커맨드.html" class="internal-link" target="_self" rel="noopener">커맨드</a> (Command): 요청을 객체의 형태로 캡슐화하여 요청에 필요한 모든 정보를 저장하고 실행할 수 있게 해주는 패턴.
+<br><a data-href="템플릿 메서드" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/템플릿-메서드.html" class="internal-link" target="_self" rel="noopener">템플릿 메서드</a> (Template Method): 상위 클래스에서 기본적인 알고리즘 구조를 정의하고, 하위 클래스에서 구체적인 처리를 구현하는 패턴.
+]]></description><link>0.-clean-code/1.-design-pattern/2.-행동-패턴/2.-행동-패턴.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 행동 패턴/2. 행동 패턴.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:59:36 GMT</pubDate></item><item><title><![CDATA[문제]]></title><description><![CDATA[ 
+ <br><br><br>
+사용자가 주소를 입력하면 목적지로 가는 가장 빠른 경로를 볼 수 있는 기능을 개발하는 상황을 가정합니다.
+<br><br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FZsJtrYr36aKCYEXONiXO%252Fimage.png%3Falt%3Dmedia%26token%3Deb50e7c1-93da-4bb7-863d-748e6b5a4033&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=60871c2d8748bdbb35aaedd1e3853b540f77a44d76444b0b2d82f9aae1c24ede" referrerpolicy="no-referrer"><br>도로 경로, 도보 경로, 대중 교통 사용 시, 자전거를 사용하는 경로 등 새 경로 알고리즘을 추가할 때마다 유지보수하기 매우 어려워집니다.<br>
+<br>간단한 버그를 수정하거나, 알고리즘 중 하나를 변경하면 전체 클래스에 영향을 미쳐 이미 작동하는 코드에서 오류가 발생하기 시작했습니다.
+<br>하나의 클래스에서 관리하기 때문에 병합 충돌 위험이 커집니다.
+<br><br>
+특정 작업을 다양한 방식으로 수행하는 클래스를 선택한 후 모든 알고리즘을 전략이라는 별도의 클래스로 추출합니다.
+<br><br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FqWlZFI6eAuRd6hDIphuO%252Fimage.png%3Falt%3Dmedia%26token%3D565210e7-0507-4080-bd1a-753f7313fa93&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=844a77abcd924df980a66cfd47e6750ad6a8f6e85f168e328eb0acbdcd0ace0d" referrerpolicy="no-referrer"><br><br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FCjmWDSJiLTk38nvuH2B9%252Fimage.png%3Falt%3Dmedia%26token%3D023a02d9-f3a7-4235-9a5c-d446ca2e3bea&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=f55316f57277bf4d1791c6e57f5a5ffd5b735d0e870f543821f4f47452c801eb" referrerpolicy="no-referrer"><br><br>
+<br>
+전략을 선택하기 위한 필드가 있어야합니다.
+
+<br>
+콘텍스트는 작업을 실행하는 대신, 연결된 전략객체에 작업을 위임합니다.
+
+<br><br>
+<br>
+원하는 전략을 콘텍스트에 전달합니다.
+
+<br>
+일반 인터페이스(Strategy)를 통해 모든 전략을 실행할 수 있습니다.
+
+<br>
+선택된 전략 내에 캡슐화된 알고리즘을 작동시킬 단일 메서드만 노출합니다.<br>
+-&gt; 콘텍스트가 구상 전략들에 의존하지 않게 되므로, 콘텍스트 또는 다른 전략들의 코드를 변경하지 않고도 새 알고리즘들을 추가하거나, 기존 알고리즘을 수정할 수 있습니다.
+
+<br><br><br>
+전략 인터페이스는 공통 작업을 선언합니다.
+<br>interface Strategy {
+    int execute(int a, int b);
+}
+Copy<br>
+<br>컨텍스트는 이 인터페이스를 사용하여 구상 전략에 의해 구현된 알고리즘을 호출합니다.
+<br><br>
+전략 인터페이스의 구현체입니다.
+<br>
+class ConcreteStrategyAdd implements Strategy {
+    public int execute(int a, int b) {
+        return a + b;
+    }
+}
+
+class ConcreteStrategySubtract implements Strategy {
+    public int execute(int a, int b) {
+        return a - b;
+    }
+}
+
+class ConcreteStrategyMultiply implements Strategy {
+    public int execute(int a, int b) {
+        return a * b;
+    }
+}
+
+Copy<br><br>
+전략 인터페이스를 사용하여 구현된 알고리즘을 호출합니다.
+<br>class ExampleApplication {
+    public static void main(String[] args) {
+        Context context = new Context();
+
+        // 숫자 입력을 위한 예제, 실제로는 Scanner 등을 사용하여 입력을 받을 수 있음
+        int firstNumber = 10; // 예시 입력 값
+        int secondNumber = 5; // 예시 입력 값
+        String action = "addition"; // 예시 입력 값 (실제로는 사용자 입력 받아야 함)
+
+        if (action.equals("addition")) {
+            context.setStrategy(new ConcreteStrategyAdd());
+        } else if (action.equals("subtraction")) {
+            context.setStrategy(new ConcreteStrategySubtract());
+        } else if (action.equals("multiplication")) {
+            context.setStrategy(new ConcreteStrategyMultiply());
+        }
+
+        int result = context.executeStrategy(firstNumber, secondNumber);
+
+        // 결과 출력
+        System.out.println("Result: " + result);
+    }
+}
+
+Copy<br><br>
+<br>
+자주 변경되는 알고리즘을 식별합니다.
+
+<br>
+모든 알고리즘에 공통인 전략 인터페이스를 선언합니다.
+
+<br>
+모든 알고리즘을 각기 다른 클래스로 추출합니다. (전략 인터페이스를 구현합니다.)
+
+<br>
+컨텍스트 클래스에서 전략에 대한 참조를 저장하기 위한 필드를 추가합니다.
+
+<br>해당 필드의 값을 대체하기 위한 세터를 제공합니다.
+<br>컨텍스트는 전략 인터페이스를 통해서만 전략 객체와 통신해야합니다.
+<br>컨텍스트는 인터페이스를 정의할 수 있으며, 이 인터페이스는 전략이 컨텍스트의 데이터에 접근할 수 있도록 합니다.
+<br>컨텍스트의 클라이언트들은 컨텍스트를 적절한 전략과 연관시켜야합니다.
+
+
+<br><br>
+<br>객체 내에서 한 알고리즘의 다양한 변형들을 사용하고 싶을 때 사용합니다.
+<br>런타임 중에서 알고리즘 전환이 필요한 경우 사용합니다.<br>
+: 특정 하위 행동들을 다양한 방식으로 수행할 수 있는 다른 하위 객체들과 연관시켜 객체의 행동들을 런타임에 간접적으로 변경할 수 있습니다.<br>
+
+<br>구현 방식만 차이가 있는 비슷한 클래스들이 많은 경우 사용합니다.<br>
+: 전략 패턴은 다양한 행동들을 별도의 클래스 계층 구조로 추출하고 원래 클래스들을 하나로 결합합니다.<br>
+
+<br>비즈니스 로직 내에서 중요하지 않은 알고리즘의 구현 세부사항들로부터 고립합니다.<br>
+: 전략 패턴으로 코드, 데이터, 알고리즘의 의존관계를 고립시킬 수 있습니다.<br>
+
+<br>매우 큰 조건문이 있을 경우 사용하기 좋습니다.<br>
+: 알고리즘을 같은 인터페이스를 구현하는 별도의 클래스로 추출하여 조건문을 제거할 수 있습니다.
+<br><br><br>
+<br>런타임 시점에 알고리즘을 선택할 수 있습니다.<br>
+
+<br>알고리즘을 사용하는 코드는 알고리즘 구현체를 몰라도 됩니다.<br>
+
+<br>상속을 합성으로 대체할 수 있습니다.<br>
+
+<br>개방 폐쇄 원칙 컨텍스트를 변경하지 않고 새로운 전략을 도입할 수 있습니다.
+<br><br>
+<br>알고리즘이 몇 개 밖에 되지 않고 거의 변하지 않는다면, 패턴과 함께 사용되는 새로운 클래스들과 인터페이스로 굳이 복잡하게 만들 필요는 없습니다.<br>
+
+<br>익명함수가 존재합니다.<br>
+: 클래스와 인터페이스를 추가할 필요 없이, 전략 객체와 동일한 이점을 누릴 수 있습니다.
+<br><br><br>
+다른 객체에 작업을 위임하는 합성을 기반으로 합니다. 
+<br><br>
+둘 다 객체를 매개변수화합니다. 
+<br><br><br>
+템플릿은 상속이 기반이고, 전략 패턴은 합성이 기반입니다. 
+<br><br>
+<br>자식 클래스에서 알고리즘의 일부분을 확장해 변경할 수 있습니다. 
+<br>클래스 수준에서 작동하므로 정적입니다. 
+<br><br>
+<br>객체 행동의 일부분을 다양한 전략을 제공하여 변경할 수 있습니다. 
+<br>객체 수준에서 작동하므로 런타임시 변경됩니다. (동적입니다.)
+<br><br>
+상태는 전략의 확장입니다. 
+<br>
+<br>두 패턴 모두 합성을 기반으로 합니다. 
+<br>]]></description><link>0.-clean-code/1.-design-pattern/2.-행동-패턴/전략.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 행동 패턴/전략.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 12:16:56 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FZsJtrYr36aKCYEXONiXO%252Fimage.png%3Falt%3Dmedia%26token%3Deb50e7c1-93da-4bb7-863d-748e6b5a4033&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=60871c2d8748bdbb35aaedd1e3853b540f77a44d76444b0b2d82f9aae1c24ede" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FZsJtrYr36aKCYEXONiXO%252Fimage.png%3Falt%3Dmedia%26token%3Deb50e7c1-93da-4bb7-863d-748e6b5a4033&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=60871c2d8748bdbb35aaedd1e3853b540f77a44d76444b0b2d82f9aae1c24ede&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[템플릿 메서드]]></title><description><![CDATA[ 
  ]]></description><link>0.-clean-code/1.-design-pattern/2.-행동-패턴/템플릿-메서드.html</link><guid isPermaLink="false">0. Clean Code/1. Design Pattern/2. 행동 패턴/템플릿 메서드.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:04:14 GMT</pubDate></item><item><title><![CDATA[Design Pattern Overview]]></title><description><![CDATA[<a class="tag" href="?query=tag:Root" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Root</a> 
  <br><br><a href=".?query=tag:Root" class="tag" target="_blank" rel="noopener">#Root</a> <br><a data-href="2. 구조 패턴" href="0.-clean-code/1.-design-pattern/2.-구조-패턴/2.-구조-패턴.html" class="internal-link" target="_self" rel="noopener">2. 구조 패턴</a><br>
 <a data-href="2. 행동 패턴" href="0.-clean-code/1.-design-pattern/2.-행동-패턴/2.-행동-패턴.html" class="internal-link" target="_self" rel="noopener">2. 행동 패턴</a><br>
@@ -344,13 +497,13 @@ MAC 주소만으로는 모든 네트워크에 속한 호스트의 위치를 특�
 <br><br><br>
 <br>신뢰할 수 있는 통신과 연결형 통신을 지원하여 IP의 한계를 극복합니다.
 <br>포트번호를 통해 응용 계층의 애플리케이션 프로세스를 식별합니다.
-<br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" referrerpolicy="no-referrer"><br><br><a href=".?query=tag:Network" class="tag" target="_blank" rel="noopener">#Network</a>]]></description><link>0.-network/2.-l4-네트워크-계층.html</link><guid isPermaLink="false">0. Network/2. L4- 네트워크 계층.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 07:05:33 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Untitled Overview]]></title><description><![CDATA[ 
+<br><img src="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" referrerpolicy="no-referrer"><br><br><a href=".?query=tag:Network" class="tag" target="_blank" rel="noopener">#Network</a>]]></description><link>0.-network/2.-l4-네트워크-계층.html</link><guid isPermaLink="false">0. Network/2. L4- 네트워크 계층.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 07:05:33 GMT</pubDate><enclosure url="https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://hanju.gitbook.io/~gitbook/image?url=https%3A%2F%2F102830355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfNpWAsJfDNQXNBCChExd%252Fuploads%252FfOpZbLGxPgdgH5MKH7OR%252Fimage.png%3Falt%3Dmedia%26token%3Db376e6bb-e40f-4734-b7aa-04a5c1c1cbf1&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=cbf7f460d9aa0681c7ed7847ff713c9a87bbab7d52b0d6b39c3e695f360713d7&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Untitled Overview]]></title><description><![CDATA[ 
  <br>]]></description><link>알고리즘과-자료구조/알고리즘/그래프-탐색/2.-그래프-탐색.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/그래프 탐색/2. 그래프 탐색.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:11:36 GMT</pubDate></item><item><title><![CDATA[2. 문자열]]></title><description><![CDATA[ 
  <br><a data-href="KMP" href="알고리즘과-자료구조/알고리즘/문자열/kmp.html" class="internal-link" target="_self" rel="noopener">KMP</a><br>
 <a data-href="Mancher's Algorithm" href="알고리즘과-자료구조/알고리즘/문자열/mancher's-algorithm.html" class="internal-link" target="_self" rel="noopener">Mancher's Algorithm</a><br>
 <a data-href="String Hashing" href="알고리즘과-자료구조/알고리즘/문자열/string-hashing.html" class="internal-link" target="_self" rel="noopener">String Hashing</a><br>
 <a data-href="Trie" href="알고리즘과-자료구조/알고리즘/문자열/trie.html" class="internal-link" target="_self" rel="noopener">Trie</a>]]></description><link>알고리즘과-자료구조/알고리즘/문자열/2.-문자열.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/문자열/2. 문자열.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:32:35 GMT</pubDate></item><item><title><![CDATA[Mancher's Algorithm]]></title><description><![CDATA[ 
- ]]></description><link>알고리즘과-자료구조/알고리즘/문자열/mancher's-algorithm.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/문자열/Mancher's Algorithm.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:31:09 GMT</pubDate></item><item><title><![CDATA[String Hashing]]></title><description><![CDATA[ 
+ ]]></description><link>알고리즘과-자료구조/알고리즘/문자열/mancher&apos;s-algorithm.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/문자열/Mancher&apos;s Algorithm.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:31:09 GMT</pubDate></item><item><title><![CDATA[String Hashing]]></title><description><![CDATA[ 
  ]]></description><link>알고리즘과-자료구조/알고리즘/문자열/string-hashing.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/문자열/String Hashing.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:31:57 GMT</pubDate></item><item><title><![CDATA[2. 완전탐색]]></title><description><![CDATA[ 
  ]]></description><link>알고리즘과-자료구조/알고리즘/완전탐색/2.-완전탐색.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘/완전탐색/2. 완전탐색.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:14:09 GMT</pubDate></item><item><title><![CDATA[2. 이진탐색]]></title><description><![CDATA[ 
  <br><a data-href="이진탐색" href="알고리즘과-자료구조/알고리즘/이진탐색/이진탐색.html" class="internal-link" target="_self" rel="noopener">이진탐색</a><br>
@@ -383,168 +536,7 @@ MAC 주소만으로는 모든 네트워크에 속한 호스트의 위치를 특�
 <a data-href="해시맵" href="알고리즘과-자료구조/자료구조/해시맵.html" class="internal-link" target="_self" rel="noopener">해시맵</a><br>
 <a data-href="2. MST" href="알고리즘과-자료구조/자료구조/mst/2.-mst.html" class="internal-link" target="_self" rel="noopener">2. MST</a>]]></description><link>알고리즘과-자료구조/자료구조/자료구조.html</link><guid isPermaLink="false">알고리즘과 자료구조/자료구조/자료구조.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:41:46 GMT</pubDate></item><item><title><![CDATA[알고리즘과 자료구조]]></title><description><![CDATA[<a class="tag" href="?query=tag:Root" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Root</a> 
  <br><a href=".?query=tag:Root" class="tag" target="_blank" rel="noopener">#Root</a> <br><a data-href="알고리즘" href="알고리즘과-자료구조/알고리즘/알고리즘.html" class="internal-link" target="_self" rel="noopener">알고리즘</a><br>
-<a data-href="자료구조" href="알고리즘과-자료구조/자료구조/자료구조.html" class="internal-link" target="_self" rel="noopener">자료구조</a>]]></description><link>알고리즘과-자료구조/알고리즘과-자료구조.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘과 자료구조.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:40:57 GMT</pubDate></item><item><title><![CDATA[Admonition]]></title><description><![CDATA[ 
- <br>콜아웃과 비슷한 역할을 하는 플러그인입니다.<br>
-텍스트 블록을 강조하거나 숨길 수 있습니다. <br><br><br><br>Copy```ad-info
-내용
-```
-Copy<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
-title: 제목
-내용
-```
-Copy<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/digqLY/btsEAh29eLd/vxVBVwAW5qbMpbtXt0Xwkk/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
-title: 
-내용
-```
-Copy<br>title의 값을 비워두면 제목 부분이 출력되지 않습니다.&nbsp;<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/nVGli/btsEA3iYRg0/No405BWjZ8s3PEVCl9nMXK/img.jpg" referrerpolicy="no-referrer"><br><br>Copy```ad-info
-collapse: open
-내용
-```
-Copy<br>collapse에 open, close를 추가합니다. open은 기본적으로 펴지게하고, close는 기본으로 접혀있습니다.<br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/vZJMO/btsEAXwzRRM/ywAIRIiAWWHzEhTDHziaf0/img.png" referrerpolicy="no-referrer"><br><br>Copy```ad-info
-icon: triforce
-내용
-```
-Copy<br>기본 아이콘을 변경할 수 있습니다. 아이콘&nbsp;이름은&nbsp;FontAwesome&nbsp;또는&nbsp;RPGA&nbsp;wesome의&nbsp;아이콘&nbsp;이름이어야&nbsp;하며&nbsp;그렇지&nbsp;않으면&nbsp;작동하지&nbsp;않습니다.<br><br>Copy```ad-info
-color: 200, 200, 200
-내용
-```
-Copy<br>색상을 변경할려면 RGB 트라이어드 값을 사용하면 됩니다. RGB 트라이어드는 쉼표로 구분된 세 개의 정수로 입력해야 하며 0에서 255 사이여야 합니다.<br><br><br>
-<br>ad-note, ad-info, ad-todo (파란색)
-<br>ad-abstract, ad-summary, ad-tldr, ad-tip, ad-hint, ad-important (하늘색)
-<br>ad-success, ad-check, ad-done (녹색)
-<br>ad-question, ad-help, ad-faq, ad-warning, ad-caution, ad-attention (주황색)
-<br>ad-failure, ad-fail, ad-missing, ad-danger, ad-error, ad-bug (빨간색)
-<br>ad-example (보라색)
-<br>ad-quote, ad-cite (회색)
-<br><br><br><a data-tooltip-position="top" aria-label="MarkDown/MarkDown 문법/MarkDown 문법" data-href="MarkDown/MarkDown 문법/MarkDown 문법" href="markdown/markdown-문법/markdown-문법.html" class="internal-link" target="_self" rel="noopener">MarkDown 문법</a>]]></description><link>markdown/markdown-문법/admonition.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/Admonition.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 05:38:20 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/lnclG/btsEAU0SjEX/9CGrYKQUWlowkFGHVjAOvK/img.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[헤딩]]></title><description><![CDATA[ 
- <br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br><br>
-<br>제목을 만들려면 # 을 입력하고 그 뒤에 텍스트를 입력합니다. 
-<br>#의 개수로 헤딩 레벨을 조정할 수 있습니다. 
-<br>6개까지 가능합니다.
-<br># heading 1
-## heading 2
-### heading 3
-#### heading 4
-##### heading 5
-###### heading 6
-Copy<br><br><br>굵은 텍스트나 기울인 텍스트를 만들려면, 텍스트를 * 나 _ 로 감쌉니다. <br>*기울임*
-_기울임_
-**굵게**
-__굵게기울림__
-***굵게기울림***
-___굵게기울림___
-Copy<br><br><br>내부 링크는 위키 링크와 마크다운 링크로 만듭니다.<br><br>위키링크 [[문서링크]]
-Copy<br><br>외부 링크는 마크 다운 링크만 사용가능합니다. <br>[Google](http://google.com)
-Copy<br><br><br>크기를 조정하려면 이미지 이름 뒤 |너비x높이 를 추가합니다. <br>![[image.jpg|640x480]]
-![제목|640x480](image.jpg)
-Copy<br>너비만 지정하면 이미지는 원래의 종횡비를 유지합니다. <br>![[image.jpg|100]]
-![제목|100](image.jpg)
-Copy<br>type: folder_brief_live
-Copy]]></description><link>markdown/markdown-문법/markdown-문법.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/MarkDown 문법.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 05:40:32 GMT</pubDate></item><item><title><![CDATA[Widgets]]></title><description><![CDATA[ 
- <br>Widgets 플러그인은 옵시디언 노트에 시계, 인용구, D-day 위젯을 추가하는 플러그인입니다.<br><br><br>명령어&nbsp;Add Widget을 실행해 사용하거나, 코드 블럭을 작성해 사용합니다.<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
-type: clock
-```
-Copy<br>
-<br>type: quote
-<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/LATXf/btsFjJKgkkf/UFl6jM1AS2hG33sIEajgsK/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
-type: quote
-quote: Lorem ipsum dolor sit amet
-author: Lorem Ipsum
-```
-Copy<br>
-<br>type: quote
-<br>quote: 인용구
-<br>author: 저자(옵션)
-<br><br><img alt="옵시디언 플러그인/커뮤니티 플러그인" src="https://blog.kakaocdn.net/dn/L2eOb/btsFhexsXHx/lawfVCcbSnTdVIPCuuP4f1/img.png" referrerpolicy="no-referrer"><br>Copy```widgets
-type: countdown
-date: 2024-01-01 00:00:00
-to: New Year! 🎉
-```
-Copy<br>
-<br>type: countdown
-<br>date: 시간 포맷은&nbsp;YYYY-MM-DD HH:MM:SS로 설정
-<br>to: 설명(옵션)
-]]></description><link>markdown/markdown-문법/widgets.html</link><guid isPermaLink="false">MarkDown/MarkDown 문법/Widgets.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 05:40:50 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/bMEdjJ/btsFiuGAAn3/Ckjj0hafEFV8ZjPHKafroK/img.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[상위문서]]></title><description><![CDATA[ 
- <br><br><br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br><br>
-<br>옵시디언에서 시각적 요소를 커스텀하기 위한 Snippets입니다. 
-<br>텍스트 색상, 폰트 크기, 간격, 배경색 등 다양한 스타일링 옵션을 사용자가 직접 조정할 수 있습니다. 
-<br><br><br><br><br>
-<br>옵시디언 설정에서 Appearance 섹션으로 이동하여 CSS Snippets 부분을 찾습니다. 
-<br>폴더 아이콘을 클릭하면 스니펫을 저장할 폴더가 열립니다. 
-<br><br>
-<br>윈도우 사용자
-
-<br>스니펫 폴더 안에서 우클릭하여 새파일을 선택합니다. 
-<br>파일의 확장자를 .txt 에서 .css 로 변경합니다. 
-<br>이 파일 안에 원하는 css 를 입력합니다. 
-
-
-<br>맥 사용자
-
-<br>스포트라이트 검색을 사용하여 텍스트 편집기를 열고 새 문서를 생성합니다. 
-<br>cmd + shift + t 단축키를 사용해 텍스트 파일로 설정한 다음, 파일을 .css 확장자로 저장합니다. 
-<br>저장한 파일을 CSS 스니펫 폴더로 이동시키면 됩니다.
-
-
-<br><br>
-<br>CSS 파일을 CSS Snippets 폴더에 저장합니다.
-<br>옵시디언 설정에서 CSS 스니펫 섹션으로 이동합니다.
-<br>새로 생성한 CSS 파일을 활성화합니다. 
-<br><br><br>
-<br>플러그인 설치후 cmd/ctrl + p 를 눌러 명령어 커맨드를 실행합니다.
-<br>Create CSS Snippets 를 클릭합니다. 
-<br>파일 이름을 작성합니다. 
-<br>Vault 이름/./obsidian/snippets 에 CSS 파일이 생성됩니다. 
-<br><br>
-<br>edit CSS Snippets를 실행하여 수정할 CSS 파일을 열어 코드를 수정할 수 있습니다. 
-]]></description><link>markdown/3.-css-snippets.html</link><guid isPermaLink="false">MarkDown/3. Css Snippets.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 04:51:08 GMT</pubDate></item><item><title><![CDATA[개요]]></title><description><![CDATA[ 
- <br><a data-href="MarkDown" href="markdown/markdown.html" class="internal-link" target="_self" rel="noopener">MarkDown</a><br><br><br>노트를 가장 찾기 쉬운 방법은 검색을 사용하는 것입니다.<br>
-검색 기능을 잘 활용하면 자신의 노트를 보다 효율적으로 관리하고 필요한 정보를 쉽게 찾을 수 있습니다. <br><br><br>
-<br>옵시디언 리본 바에서 설정을 열고, 코어 플러그인 섹션에서 검색을 찾아 활성화합니다. 
-<br><br><br>
-<br>Aa&nbsp;- 대소문자 구분 여부 선택합니다.
-<br>검색 결과 축소&nbsp;- 활성화시 제목만 출력, 비활성화하면 내용검색까지 출력합니다.
-<br>앞뒤로 표시&nbsp;- 더 많은 검색 결과를 좁은 줄간격으로 출력합니다.
-<br>검색 단어 표시&nbsp;- 입력한 검색 쿼리문의 해석을 보여줍니다.
-<br>result (...)&nbsp;- 검색 결과를 리스트 형식으로 복사합니다.
-<br>파일 이름(알파벳순)&nbsp;- 파일 이름, 업데이트 날짜, 작성일 기준으로 정렬순서를 변경합니다.
-<br><br><br><br>검색어를 입력하면 해당 단어를 포함한 노트를 검색합니다.<br>검색어
-Copy<br><br>A와 B를 모두 포함한 노트를 검색합니다.<br>A B
-Copy<br><br>쌍따옴표("")를 사용하면 해당 구문을 정확히 포함하는 노트만 검색합니다.<br>"A B"
-Copy<br><br>
-<br>file:: 파일명을 검색합니다.
-<br>path:: 파일경로를 검색하고 경로내 모든 노트를 검색결과로 나타냅니다.
-<br>content:: 파일 내용만 검색합니다. 파일명, 폴더 경로는 제외됩니다.
-<br>section:: 특정 섹션으로 검색합니다.
-<br>block:: 블록단위로 검색합니다.
-<br>line:: 검색어가 포함되어있는 라인을 줄을 검색합니다.
-<br>tag:: 태그를 검색합니다.
-<br>task:: task를 검색합니다.
-<br>task-todo:: 미완료된 task만 검색합니다.
-<br>task-done:: 완료된 task만 검색합니다.
-<br>["프로퍼티"]: 프로퍼티 이름을 검색합니다.
-<br><br><br>
-<br>노트 제목 일부를 입력하여 빠른 이동을 할 수 있습니다. 
-<br>Cmd/Ctrl + O 를 눌러 시작하고, 메모를 검색하여 이동합니다. 
-<br>노트 이름이 기억나지 않을 때, 이동하지 못합니다. 
-<br><br>
-<br>노트 내용을 검색해 빠른 이동을 할 수 있습니다. 
-<br>Ctrl + Shift + F 로 검색하여 이동합니다. 
-<br>사이드바 탭에서 검색 플러그인을 찾을 수 있습니다. 
-]]></description><link>markdown/4.-검색-기능.html</link><guid isPermaLink="false">MarkDown/4. 검색 기능.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 05:41:19 GMT</pubDate></item><item><title><![CDATA[개요]]></title><description><![CDATA[ 
- <br><br>마크다운은 글을 읽고 쓰고, 편집하기 쉬운 목적으로 만들어진 문서 작성을 위한 형식입니다.<br>
-문법이 간결하고 HTML 삽입이 가능합니다. <br>마크 다운을 작성한 문서의 표현방식은 CSS 설정에 따라 달라집니다.<br>
-CSS를 커스터마이징하고 싶다면 아래의 CSS Snippet 문서를 참고합니다. <br><br>
-<br>문법이 간결하고 쉽다. 
-<br>웹사이트, 문서, 메모, 기술 문서등 대부분의 것들에 사용할 수 있다. 
-<br>지원 플랫폼이 많다. 
-<br>대부분의 환경에서 편집 및 작성이 가능하다. (심지어 메모장도 가능)
-<br>텍스트로 저장하여 용량이 적다. 
-<br><br>
-<br>모든 HTML을 포괄하지 않는다. 
-<br>표준이 없기 때문에 뷰어에 따라 결과물이 달라진다. (github와 notion, discord, obsidian 전부 다르다.)
-<br>마크 다운으로 파일(이미지)를 업로드 하는 경우 저장한 다음 파일 경로를 입력해야한다. 
-]]></description><link>markdown/markdown.html</link><guid isPermaLink="false">MarkDown/MarkDown.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 01:16:53 GMT</pubDate></item><item><title><![CDATA[<font color="#8064a2">Profile.</font>]]></title><description><![CDATA[ 
+<a data-href="자료구조" href="알고리즘과-자료구조/자료구조/자료구조.html" class="internal-link" target="_self" rel="noopener">자료구조</a>]]></description><link>알고리즘과-자료구조/알고리즘과-자료구조.html</link><guid isPermaLink="false">알고리즘과 자료구조/알고리즘과 자료구조.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 11:40:57 GMT</pubDate></item><item><title><![CDATA[<font color="#8064a2">Profile.</font>]]></title><description><![CDATA[ 
  <br><br><br><br>
 안녕하세요. 백엔드 개발자 김한주입니다.<br>
 제 강점은 단순 기능 구현을 넘어 안정적인 상황을 목표로 개발하는 습관입니다.<br>
@@ -566,5 +558,5 @@ CSS를 커스터마이징하고 싶다면 아래의 CSS Snippet 문서를 참고
 <br><br><br>
 <br>한국데이터진흥원 SQL Developer 취득 (2022.12.09)
 <br>제7차 현대 Softeer 정기 역량 진단(HSAT) Level3 취득(2023.08.11)
-<br><br><br><img src="https://i.imgur.com/1c4Jlsl.png" referrerpolicy="no-referrer"><br><br><br><img src="https://i.imgur.com/cehUtrI.png" referrerpolicy="no-referrer"><br>]]></description><link>hanju's-study-note.html</link><guid isPermaLink="false">Hanju's Study Note.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 06:22:55 GMT</pubDate><enclosure url="https://i.imgur.com/1c4Jlsl.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/1c4Jlsl.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+<br><br><br><img src="https://i.imgur.com/1c4Jlsl.png" referrerpolicy="no-referrer"><br><br><br><img src="https://i.imgur.com/cehUtrI.png" referrerpolicy="no-referrer"><br>]]></description><link>hanju&apos;s-study-note.html</link><guid isPermaLink="false">Hanju&apos;s Study Note.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 06:22:55 GMT</pubDate><enclosure url="https://i.imgur.com/1c4Jlsl.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://i.imgur.com/1c4Jlsl.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Sun, 02 Jun 2024 02:03:57 GMT</pubDate></item></channel></rss>
