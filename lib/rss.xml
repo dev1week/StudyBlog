@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 06 Jun 2024 14:21:45 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 06 Jun 2024 14:21:38 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[ALB - Application Load Balancer]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 07 Jun 2024 15:34:25 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 07 Jun 2024 15:34:17 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[ALB - Application Load Balancer]]></title><description><![CDATA[ 
  <br><br>
 7계층에서 동작하는 로드밸런서 입니다. 트래픽을 균형있게 나누어줍니다.
 <br><br>
@@ -1335,17 +1335,67 @@ Copy<br>
 <br><br>
 <br>레코드 기반 타입의 경우 java.lang.reflect.
 ]]></description><link>java/record.html</link><guid isPermaLink="false">Java/Record.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 03 Jun 2024 04:04:49 GMT</pubDate><enclosure url="https://i.imgur.com/jI6KVJ2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://i.imgur.com/jI6KVJ2.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Cloudy의 RAG 도입기]]></title><description><![CDATA[ 
- ]]></description><link>prj/cloudy/cloudy의-rag-도입기.html</link><guid isPermaLink="false">Prj/Cloudy/Cloudy의 RAG 도입기.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Thu, 06 Jun 2024 14:14:16 GMT</pubDate></item><item><title><![CDATA[Dynamo DB - 채팅 내역 저장을 위한 키 설계]]></title><description><![CDATA[ 
- <br>pk는 많은 파티션 중 내가 찾고자하는 데이터가 어느 파티션에 있는지 알려주는 키입니다. 항상 equal 연산자만 사용할 수 있습니다. <br>sk를 이용해서 1:n 관계의 모델링을 적용할 수 있습니다. 오름차순, 내림차순 대로 데이터를 정렬하여 조회할 수 있습니다. begins with , 등호 연산자 및 범위 연산자를 사용할 수 있습니다.<br>pk와 sk를 합쳐 Primary Key가 됩니다. 오직 Primary key로만 데이터 검색이 가능하기 때문에 pk와 sk 조합을 잘 설계해야합니다.<br>
-<img src="https://i.imgur.com/o7S8mKQ.png" referrerpolicy="no-referrer"><br><br><img src="https://i.imgur.com/d4RQeDY.png" referrerpolicy="no-referrer"><br>데이터끼리 관계를 맺는 RDBMS는 수평적 확장이 매우 힘듭니다. 때문에 주로 스케일 업을 이용하여 해결합니다. 하지만 태생이 대규모 데이터를 처리하기 위해 나온 NoSQL의 경우 무한히 스케일 아웃을 진행할 수 있습니다.<br>
+ ]]></description><link>prj/cloudy/cloudy의-rag-도입기.html</link><guid isPermaLink="false">Prj/Cloudy/Cloudy의 RAG 도입기.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Thu, 06 Jun 2024 14:14:16 GMT</pubDate></item><item><title><![CDATA[채킹 내역 저장을 위한 키 설계]]></title><description><![CDATA[ 
+ <br><br><br>Dynamo Db에서는 Partiion Key와 Sort Key를 합쳐 Primary Key로 사용하는 매우 독특한 특징이 있습니다. 올바르게 Dynamo DB를 사용하기 위해서 DynamoDB의 특징과 성질을 알아보겠습니다. <br>Partition Key<br>
+pk는 많은 파티션 중 내가 찾고자하는 데이터가 어느 파티션에 있는지 알려주는 키입니다. 항상 equal 연산자만 사용할 수 있습니다. <br>Sort Key<br>
+sk를 이용해서 1:n 관계의 모델링을 적용할 수 있습니다. 오름차순, 내림차순 대로 데이터를 정렬하여 조회할 수 있습니다. begins with , 등호 연산자 및 범위 연산자를 사용할 수 있습니다.<br>pk와 sk를 합쳐 Primary Key가 됩니다. 오직 Primary key로만 데이터 검색이 가능하기 때문에 pk와 sk 조합을 잘 설계해야합니다.<br>
+<img src="https://i.imgur.com/o7S8mKQ.png" referrerpolicy="no-referrer"><br><br><br><img src="https://i.imgur.com/d4RQeDY.png" referrerpolicy="no-referrer"><br>데이터끼리 관계를 맺는 RDBMS는 수평적 확장이 매우 힘듭니다. 때문에 주로 스케일 업을 이용하여 해결합니다. 하지만 태생이 대규모 데이터를 처리하기 위해 나온 NoSQL의 경우 무한히 스케일 아웃을 진행할 수 있습니다.<br>
 즉, NoSQL을 활용하는 데이터는 수평으로 확장 가능한 데이터가 되게끔 설계해야합니다. 또한 어느 한쪽의 인스턴스로만 트래픽이 쏠리지 않도록 키를 잘 설계해야합니다.<br><br>논리적 단위인 테이블은 한 개여도, 내부에서는 파티션이라는 단위로 쪼개져 저장됩니다. <br><br>하나의 파티션은 다음과 같은 제약사항을 가집니다. 데이터가 계속해서 늘어나더라도 파티션의 개수 증가하는 개념이지, 한 파티션 내의 제약사항은 절대로 변하지 않습니다. <br>
 <br>1k WCU
 <br>3K RCU 
-<br>10GB 
-<br>-&gt; 여러개의 파티션이 골고루 사용되도록 파티션을 식별하는 키 디자인을 잘하는 것이 중요합니다. <br><br><img src="https://i.imgur.com/Bzplid4.png" referrerpolicy="no-referrer"><br>Dynamo DB는 <br>
-<br>사용하는 주언어는 무엇이고 본인의 수준은?<br>
-오픈소스 기여 경험, 사용후 장단점 
-<br><img src="https://i.imgur.com/pdjqFkT.png" referrerpolicy="no-referrer">]]></description><link>prj/cloudy/dynamo-db-채팅-내역-저장을-위한-키-설계.html</link><guid isPermaLink="false">Prj/Cloudy/Dynamo DB - 채팅 내역 저장을 위한 키 설계.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Thu, 06 Jun 2024 02:33:11 GMT</pubDate><enclosure url="https://i.imgur.com/o7S8mKQ.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://i.imgur.com/o7S8mKQ.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[문제점 : 너무 느린 속도]]></title><description><![CDATA[ 
+<br>10GB<br>
+-&gt; 여러개의 파티션이 골고루 사용되도록 파티션을 식별하는 키 디자인을 잘하는 것이 중요합니다.
+<br><br><img src="https://i.imgur.com/7wXEKR7.png" referrerpolicy="no-referrer"><br><img src="https://i.imgur.com/qL0u4w9.png" referrerpolicy="no-referrer"><br>Dynamo DB는 Id를 해쉬값으로 변경하여 저장되는 파티션을 결정합니다. Application 구현시 Key값을 해쉬로 변경하는 로직은 짜지 않아도 괜찮습니다. <br><br>Amazon DynamoDB에서 파티션은 데이터의 양과 테이블에 대한 읽기/쓰기 요청의 양에 따라 자동으로 관리됩니다. 파티션이 늘어나는 주요 시점은 다음과 같습니다:<br>1.데이터의 양이 증가할 때:<br>
+- DynamoDB 테이블에 저장된 데이터의 양이 파티션당 최대 저장 용량(10GB)을 초과할 때 새로운 파티션이 자동으로 추가됩니다. 즉, 테이블에 있는 데이터의 총량이 증가하여 각 파티션의 용량이 초과될 경우 DynamoDB는 추가 파티션을 생성하여 데이터를 분산 저장합니다.<br>2.프로비저닝된 읽기/쓰기 용량이 증가할 때:<br>
+- 테이블의 프로비저닝된 읽기 및 쓰기 용량 단위가 증가하면 DynamoDB는 이를 수용하기 위해 파티션 수를 늘릴 수 있습니다. 파티션당 최대 처리량(읽기/쓰기 용량)이 제한되어 있기 때문에, 필요한 처리량을 제공하기 위해 더 많은 파티션을 생성합니다.<br>3.온디맨드 모드에서의 스케일링:<br>
+- DynamoDB 테이블이 온디맨드 모드로 설정되어 있으면, 읽기 및 쓰기 요청의 트래픽 패턴을 자동으로 감지하여 파티션을 조정합니다. 트래픽이 급증하거나 감소할 때 테이블의 파티션 수는 자동으로 늘어나거나 줄어들 수 있습니다.<br><br><img src="https://i.imgur.com/78MRveb.png" referrerpolicy="no-referrer"><br>Dynamo DB는 항상 데이터를 복제하여 저장합니다. 3개의 가용영역에 복제되며 서비스는 3개의 가용영역에서 실행됩니다. <br><br><br>DynamoDB는 RCU와 WCU라는 컴퓨팅 단위를 사용합니다. 일반적인 RDB와는 다르게 WCU와 RCU는 독립적으로 동작합니다. <br><br><br>테이블의 전체 크기를 의미합니다. 테이블에 넣을 수 있는 아이템의 개수로 따지는 것이 아닌 최대 크기로 따집니다. 400KB까지 사용 가능합니다. 하지만 400KB를 전부 사용하는 것은 권장하지 않습니다. DynamoDB는 하나의 아이템에서 한 글자만 바뀌어도 다시 쓰는 특성을 갖습니다. 이러한 이유로 아이템의 사이즈는 작게, 아이템의 개수가 많게끔 저장되는 데이터를 모델링하는 것이 이상적입니다. <br>-&gt; DynamoDB의 컨셉은 무한하게 많은 데이터 중 PK+SK의 조합으로 특정한 데이터를 가능한한 빠르게 반환하는 것임을 잊지말아야합니다. <br><br>기본적으로 Dynamo DB에서는 데이터를 읽기 위한 REST API를 제공합니다. <br><br>
+<br>Partition Key의 정확한 값을 지정해야합니다. 
+<br>0개 또는 1개의 아이템만 반환합니다. 
+<br>아이템 크기에 따라 RCU를 사용합니다. 
+
+<br>아이템 크기가 10kb인 경우 2RCU를 사용합니다. 
+
+
+<br><br>
+<br>Partition Key의 정확한 값을 지정해야합니다. 
+<br>선택적으로 attributes에 필터링 조건을 추가할 수 있습니다. 
+<br>조건에 맞는 아이템을 여러개 반환합니다. 
+<br>조건과 일치하는 아이템 크기에 따라 RCU를 소비하여 단일 결과를 반환합니다. 
+<br>LastEvaluatedKey <br>
+<br>Query는 단일 호출로 최대 1MB만 반환할 수 있습니다.
+<br>응답 메시지가 1MB 이상일 경우 LastEvaluatedKey를 활용해 pagination이 가능합니다.
+<br><br>
+<br>rdbms에서의 Full Table Scan 과 동일합니다.
+<br>Dynamo DB에서는 페이지네이션과 비슷하게 동작합니다. <br>
+<br>rdbms에서는 테이블 끝까지 조회하지만, DynamoDB에서는 1MB 단위로 스캔이 가능합니다. 
+<br>return 갑 중 token을 활용해 다음 1MB 데이터를 스캔할 수 있습니다. 
+<br>사용예시<br>
+<br>OLTP의 운영환경에서는 사실상 사용할 일이 없습니다. (어쨌거나 저쨌거나 결국 full table scan입니다.)
+<br>온라인 마이그레이션을 할때의 옵션 중 하나입니다. 
+<br><br>
+<br>ACID를 지원하기 위한 API입니다. 
+<br>단일 리전 내에서 여러개의 테이블이나 아이템을 트랜잭션으로 묶어 읽거나 쓸 수 있습니다. 
+<br>WCU와 RCU가 2배가 소모되기 때문에, 필요한 곳에만 최소화하여 사용해야합니다. 
+<br><br>Amazon DynamoDB에서 LSI(Local Secondary Index)와 GSI(Global Secondary Index)는 테이블의 쿼리 성능을 향상시키기 위해 사용되는 인덱스입니다. 두 인덱스 모두 테이블의 속성을 기준으로 데이터를 효율적으로 검색할 수 있게 해주지만, 사용 방법과 동작 방식에서 몇 가지 중요한 차이점이 있습니다.<br><br><img src="https://i.imgur.com/I7V2d7g.png" referrerpolicy="no-referrer"><br>
+<br>테이블의 Primary Key 외의 다른 검색 조건이 필요한 경우 사용합니다.
+<br>추가나 삭제가 자유로워 스키마 변경시 유연하게 대처할 수 있습니다. 
+<br>원하는 Attribute를 GSI의 PK, SK로 설정합니다. 
+<br><br><img src="https://i.imgur.com/YzEEnCb.png" referrerpolicy="no-referrer"><br>
+<br>테이블 안에서 동일한 PK를 사용하며, 다른 SK를 사용하고 싶을 때 LSI를 사용합니다.
+<br>일반적으로 사용을 권장하지 않습니다.<br>
+<br>GSI와 달리 테이블 생성 시점에만 설정이 가능합니다. 
+<br>사용 도중 삭제 또한 불가능합니다.
+<br><br><br><img src="https://i.imgur.com/XvYMacu.png" referrerpolicy="no-referrer"><br>rdbms에서 처럼 엔티티별로 테이블을 만들지 말자<br>
+오른쪽 예시처럼 최대한 빠르게 데이터를 조회하게 끔 해야한다. <br>
+<br>application의 usecase가 dynamo db가 잘하는 것과 맞는지 판단해야합니다. 
+<br>Dynamodb가 가장 잘하는 것은 무한대의 가까운 item에서 특정개수의 아이템을 Primary Key(PK+SK)로 빠르게 조회하는 것 이다. 대량의 벌크성 쿼리, range 쿼리, 집계 쿼리는 잘 수행하지 못합니다.<br>
+<br>액세스 패턴을 식별해야합니다.<br>
+읽기/쓰기 워크로드, 쿼리 차원, 집계
+<br>사이즈가 작은 여러개의 테이블보다는 사이즈가 큰 하나의 테이블을 사용하는 것이 낫다.<br>
+DynamoDB는 테이블 단위 완전 관리형 서비스이다.<br>
+Dynamo DB는 풀서버리스 형태의 테이블 단위 완전관리형 서비스입니다. 여러 개의 테이블을 만들게 되면 각 테이블에 대한 설정, 모니터링, 최적화 등의 관리 작업이 필요하게 됩니다. 예를 들어 각 테이블의 스키마 설정 및 변경, 인덱스 관리, 성능 모니터링 및 튜닝, 읽기/쓰기 용량 설정 등을 각각의 테이블 별로 따로 해줘야합니다.<br>
+이는 완전관리형 서비스의 설계 철학, 즉 "사용자가 최소한의 관리만으로 데이터베이스를 운영할 수 있도록 한다"는 목표에 어긋나게 됩니다.<br>테이블을 하나로 사용해야지, 여러개의 파티션을 사용하는 DynamoDB의 특성을 제대로 활용할 수 있습니다. 또한 핫 파티션이 발생할 확률이 줄어듭니다. <br>OLTP vs OLAP<br>
+OLTP가 적합합니다. OLAP인 경우 DynamoDB 외부로 파이프라인을 만들어 분석을 수행해야합니다. <br>디자인 패턴 <br>비정규화 ]]></description><link>prj/cloudy/dynamo-db-채팅-내역-저장을-위한-키-설계.html</link><guid isPermaLink="false">Prj/Cloudy/Dynamo DB - 채팅 내역 저장을 위한 키 설계.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Fri, 07 Jun 2024 04:19:06 GMT</pubDate><enclosure url="https://i.imgur.com/o7S8mKQ.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://i.imgur.com/o7S8mKQ.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[문제점 : 너무 느린 속도]]></title><description><![CDATA[ 
  <br><br>Cloudy 챗봇들은 질문이 들어오면 다음과 같이 작동합니다. <br>1. AOP가 적용되어 있어 불건전 질문을 자동으로 필터링합니다. 
 2. 질문에 대해서 관련 AWS 서비스, it 키워드로 추출합니다. 
 3. 추출해낸 키워드를 바탕으로 Vector DB[pinecone]에서 관련 데이터를 찾습니다. 

@@ -1,6 +1,6 @@
 {
   "vaultName": "Hanju",
-  "lastExport": 1717683698695,
+  "lastExport": 1717774457939,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager native-scrollbars theme-light show-inline-title AT-row",
   "useCustomHeadContent": false,
@@ -76,7 +76,6 @@
     "알고리즘과 자료구조/자료구조/트리맵.md",
     "알고리즘과 자료구조/자료구조/해시맵.md",
     "알고리즘과 자료구조/알고리즘과 자료구조.md",
-    "운영체제/운영체제.md",
     "운영체제/운영체제 정리.canvas",
     "Java/0. Java 정리.canvas",
     "Java/Enum.md",
@@ -90,6 +89,7 @@
     "Prj/Conting/콘팅의 철저한 검표 시스템.md",
     "Prj/Conting/콘팅의 AuthCapturePattern 도입기.md",
     "Prj/Conting/콘팅이 서비스를 잘게 쪼갠 이유.md",
+    "코딩테스트 풀이법.canvas",
     "chatbotOudy.gif",
     "Hanju's Study Note.md",
     "index.md",
@@ -165,439 +165,433 @@
   ],
   "fileInfo": {
     "0. AWS/1. 고가용성 및 스케일링/ALB/ALB.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 2476,
       "exportedPath": "0.-aws/1.-고가용성-및-스케일링/alb/alb.html",
       "dependencies": []
     },
     "0. AWS/1. 고가용성 및 스케일링/1. 고가용성 및 스케일링.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1802,
       "exportedPath": "0.-aws/1.-고가용성-및-스케일링/1.-고가용성-및-스케일링.html",
       "dependencies": []
     },
     "0. AWS/1. IaC/CloudFormation/0 CloudFormation.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 3341,
       "exportedPath": "0.-aws/1.-iac/cloudformation/0-cloudformation.html",
       "dependencies": []
     },
     "0. AWS/1. IaC/CloudFormation/스택.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 3852,
       "exportedPath": "0.-aws/1.-iac/cloudformation/스택.html",
       "dependencies": []
     },
     "0. AWS/1. IaC/CloudFormation/템플릿.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 7480,
       "exportedPath": "0.-aws/1.-iac/cloudformation/템플릿.html",
       "dependencies": []
     },
     "0. AWS/1. IaC/1. IaC.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1576,
       "exportedPath": "0.-aws/1.-iac/1.-iac.html",
       "dependencies": []
     },
     "0. AWS/0. AWS.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 2472,
       "exportedPath": "0.-aws/0.-aws.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/2. 구조 패턴.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1347,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/2.-구조-패턴.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/데코레이터.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/데코레이터.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/복합체.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/복합체.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/브리지.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/브리지.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/어댑터.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/어댑터.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/파사드.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/파사드.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/프록시.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/프록시.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 구조 패턴/플라이웨이트.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-구조-패턴/플라이웨이트.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/2. 생성 패턴.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 966,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/2.-생성-패턴.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/빌더.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 6516,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/빌더.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/싱글톤.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/싱글톤.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/추상 팩토리.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/추상-팩토리.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/팩토리.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/팩토리.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 생성 패턴/프로토타입.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-생성-패턴/프로토타입.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/2. 행동 패턴.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1666,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/2.-행동-패턴.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/메멘토.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/메멘토.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/반복자.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/반복자.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/비지터.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/비지터.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/상태.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/상태.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/옵서버.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/옵서버.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/전략.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 15286,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/전략.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/중재자.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/중재자.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/책임연쇄.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/책임연쇄.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/커맨드.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/커맨드.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/2. 행동 패턴/템플릿 메서드.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "0.-clean-code/1.-design-pattern/2.-행동-패턴/템플릿-메서드.html",
       "dependencies": []
     },
     "0. Clean Code/1. Design Pattern/1. Design Pattern.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 101,
       "exportedPath": "0.-clean-code/1.-design-pattern/1.-design-pattern.html",
       "dependencies": []
     },
     "0. Clean Code/0. Clean Code.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 25,
       "exportedPath": "0.-clean-code/0.-clean-code.html",
       "dependencies": []
     },
     "0. Clean Code/상속하지 말고 합성하라.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 11537,
       "exportedPath": "0.-clean-code/상속하지-말고-합성하라.html",
       "dependencies": []
     },
     "0. Network/0. Network.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 63,
       "exportedPath": "0.-network/0.-network.html",
       "dependencies": []
     },
     "0. Network/1. L3- 네트워크 계층.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 2769,
       "exportedPath": "0.-network/1.-l3-네트워크-계층.html",
       "dependencies": []
     },
     "0. Network/2. L4- 네트워크 계층.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 769,
       "exportedPath": "0.-network/2.-l4-네트워크-계층.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/그래프 탐색/2. 그래프 탐색.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 20,
       "exportedPath": "알고리즘과-자료구조/알고리즘/그래프-탐색/2.-그래프-탐색.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/그래프 탐색/BFS.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/그래프-탐색/bfs.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/그래프 탐색/DFS.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/그래프-탐색/dfs.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/문자열/2. 문자열.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 60,
       "exportedPath": "알고리즘과-자료구조/알고리즘/문자열/2.-문자열.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/문자열/KMP.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/문자열/kmp.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/문자열/Mancher's Algorithm.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/문자열/mancher's-algorithm.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/문자열/String Hashing.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/문자열/string-hashing.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/문자열/Trie.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/문자열/trie.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/완전탐색/2. 완전탐색.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1,
       "exportedPath": "알고리즘과-자료구조/알고리즘/완전탐색/2.-완전탐색.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/완전탐색/백트래킹.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/완전탐색/백트래킹.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/이진탐색/2. 이진탐색.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 42,
       "exportedPath": "알고리즘과-자료구조/알고리즘/이진탐색/2.-이진탐색.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/이진탐색/이진탐색.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/이진탐색/이진탐색.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/이진탐색/Parametric Search.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/이진탐색/parametric-search.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/최단거리/2. 최단거리.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 43,
       "exportedPath": "알고리즘과-자료구조/알고리즘/최단거리/2.-최단거리.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/최단거리/다익스트라.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/최단거리/다익스트라.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/최단거리/플로이드워샬.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/최단거리/플로이드워샬.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/DP/2. DP.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 20,
       "exportedPath": "알고리즘과-자료구조/알고리즘/dp/2.-dp.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/2. 그리디.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/알고리즘/2.-그리디.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘/알고리즘.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 113,
       "exportedPath": "알고리즘과-자료구조/알고리즘/알고리즘.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/MST/2. MST.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 57,
       "exportedPath": "알고리즘과-자료구조/자료구조/mst/2.-mst.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/MST/Kruscal.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/mst/kruscal.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/MST/Prim.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/mst/prim.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/MST/Union Find.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/mst/union-find.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/덱.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/덱.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/스택.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/스택.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/연결리스트.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/연결리스트.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/우선순위 큐.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/우선순위-큐.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/자료구조.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 167,
       "exportedPath": "알고리즘과-자료구조/자료구조/자료구조.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/큐.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1,
       "exportedPath": "알고리즘과-자료구조/자료구조/큐.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/트리맵.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/트리맵.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/자료구조/해시맵.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "알고리즘과-자료구조/자료구조/해시맵.html",
       "dependencies": []
     },
     "알고리즘과 자료구조/알고리즘과 자료구조.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 43,
       "exportedPath": "알고리즘과-자료구조/알고리즘과-자료구조.html",
       "dependencies": []
     },
-    "운영체제/운영체제.md": {
-      "modifiedTime": 1717683698695,
-      "sourceSize": 2,
-      "exportedPath": "운영체제/운영체제.html",
-      "dependencies": []
-    },
     "운영체제/운영체제 정리.canvas": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 27968,
       "exportedPath": "운영체제/운영체제-정리.html",
       "dependencies": []
     },
     "Java/0. Java 정리.canvas": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 6539,
       "exportedPath": "java/0.-java-정리.html",
       "dependencies": [
@@ -605,13 +599,13 @@
       ]
     },
     "Java/Enum.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 8,
       "exportedPath": "java/enum.html",
       "dependencies": []
     },
     "Java/Java의 불변성.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 2454,
       "exportedPath": "java/java의-불변성.html",
       "dependencies": [
@@ -619,25 +613,25 @@
       ]
     },
     "Java/Record.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 8077,
       "exportedPath": "java/record.html",
       "dependencies": []
     },
     "Prj/Cloudy/Cloudy의 RAG 도입기.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "prj/cloudy/cloudy의-rag-도입기.html",
       "dependencies": []
     },
     "Prj/Cloudy/Dynamo DB - 채팅 내역 저장을 위한 키 설계.md": {
-      "modifiedTime": 1717683698695,
-      "sourceSize": 2017,
+      "modifiedTime": 1717774457939,
+      "sourceSize": 10741,
       "exportedPath": "prj/cloudy/dynamo-db-채팅-내역-저장을-위한-키-설계.html",
       "dependencies": []
     },
     "Prj/Cloudy/Flux를 활용한 SSE 구현기.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 18120,
       "exportedPath": "prj/cloudy/flux를-활용한-sse-구현기.html",
       "dependencies": [
@@ -645,259 +639,265 @@
       ]
     },
     "Prj/Cloudy/RDB와 NoSQL의 차이.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 4559,
       "exportedPath": "prj/cloudy/rdb와-nosql의-차이.html",
       "dependencies": []
     },
     "Prj/Conting/콘팅의 대기열 서버가 장애를 극복하는 방법.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "prj/conting/콘팅의-대기열-서버가-장애를-극복하는-방법.html",
       "dependencies": []
     },
     "Prj/Conting/콘팅의 철저한 검표 시스템.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "prj/conting/콘팅의-철저한-검표-시스템.html",
       "dependencies": []
     },
     "Prj/Conting/콘팅의 AuthCapturePattern 도입기.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "prj/conting/콘팅의-authcapturepattern-도입기.html",
       "dependencies": []
     },
     "Prj/Conting/콘팅이 서비스를 잘게 쪼갠 이유.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "prj/conting/콘팅이-서비스를-잘게-쪼갠-이유.html",
       "dependencies": []
     },
+    "코딩테스트 풀이법.canvas": {
+      "modifiedTime": 1717774457939,
+      "sourceSize": 5760,
+      "exportedPath": "코딩테스트-풀이법.html",
+      "dependencies": []
+    },
     "chatbotOudy.gif": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 552863,
       "exportedPath": "chatbotoudy.gif",
       "dependencies": []
     },
     "Hanju's Study Note.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 2094,
       "exportedPath": "hanju's-study-note.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 0,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Pasted image 20240603133256.png": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 55028,
       "exportedPath": "pasted-image-20240603133256.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240603133256.png": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 55028,
       "exportedPath": "lib/media/pasted-image-20240603133256.png",
       "dependencies": []
     },
     "lib/media/chatbotoudy.gif": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 552863,
       "exportedPath": "lib/media/chatbotoudy.gif",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1717683698695,
-      "sourceSize": 92129,
+      "modifiedTime": 1717774457939,
+      "sourceSize": 92268,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.ico": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 1150,
       "exportedPath": "lib/media/favicon.ico",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1717683698695,
-      "sourceSize": 5945,
+      "modifiedTime": 1717774457939,
+      "sourceSize": 5950,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 157722,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 19030,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 23919,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 487,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 371,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1717683698695,
+      "modifiedTime": 1717774457939,
       "sourceSize": 114,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
