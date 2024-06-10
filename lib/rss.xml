@@ -1,109 +1,15 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 11:22:36 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 11:22:35 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
- <br><br><br><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a><br>실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 ? 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤메기 매우 쉽습니다. 심지어 테케는 다 돌아가는 악랄한 문제인데요. 이대로 제출 누르면 실전에서 메모리 초과 가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. <br><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"><br>문제를 간단히 요약하면 다음과 같습니다. <br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 11:30:31 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 11:30:31 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
+ <br><br><br><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a><br>실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 ? 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤메기 매우 쉽습니다. 심지어 테케는 다 돌아가는 악랄한 문제인데요. 이대로 제출 누르면 실전에서 메모리 초과 가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. <br>특히 대기업 공채에서 이런 문제에 풀이 잘못 제출할 경우 6개월에서 1년동안 손가락 빨고 있어야합니다. ^^<br><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"><br>문제를 간단히 요약하면 다음과 같습니다. <br>
 <br>n개의 좌표가 입력으로 주어진다. 
 <br>직사각형의 길이 a,b가 주어진다. 
 <br>n개의 좌표로 직사각형을 만들 때 길이가 일치하는 경우의 수 구하기 
 <br>특이한건 전체 데이터의 개수가 약 10^5 개, 각 값은 long 타입 써야할 정도로 숫자가 매우 큰데요. 전형적인 데이터 개수 &amp; 크기로 내리찍는 문제입니다. 이 부분을 유의하면서 풀어봅시다. 불행 중 다행으로 전체 경우의 수는 2^31 안으로 나온다했으니, 정답 변수 만큼은 int로 선언할 수 있겠네요.<br><br> 정말 간단하게 접근했을 때의 풀이입니다. 백트래킹이나 4중 반복문을 써서 가능한 모든 조합을 테스트 해보는 것입니다. 먼저 시간 복잡도를 계산해보겠습니다. 백트래킹으로 구현할 경우 조합의 개수 만큼 시간 복잡도가 나옵니다. nC4가 되므로 n=500,000을 넣어 계산해보겠습니다.<br>
-500000C4 = 2,60,385,417,812,487,500(~=10^17)이므로 택도 없는 것을 확인할 수 알 수 있습니다. <br><br>그렇다면 고려해볼만한 것은 해시입니다. 풀이는 다음과 같습니다. <br>답안 로직<br>
+500000C4 = 2,60,385,417,812,487,500(~=10^17)이므로 택도 없는 풀이네요.<br><br>그렇다면 고려해볼만한 것은 해시입니다. 풀이는 다음과 같습니다. <br>답안 로직<br>
 <br>x와 y좌표를 속성으로 갖고 x,y로 고유성을 판별할 수 있는 Position클래스를 정의합니다. 
 <br>주어진 모든 점을 해시셋에 넣습니다. 
 <br>가장 왼쪽 아래의 점(x y)을 잡았다 치고 주어진 모든 점을 순회합니다. 
 <br>해시셋에서 나머지 3개의 점 (x+a, y+b), (x,y+b), (x+a,y) 이 있는지 확인합니다. 
-<br>전체 코드는 다음과 같습니다. <br>
-
-import java.io.*;
-import java.util.*;
-
-
-class Position{
-    long x, y;
-
-
-    public Position(long x, long y){
-        this.x = x;
-        this.y = y;
-    }
-
-
-    @Override
-    public int hashCode(){
-        return Objects.hash(x,y);
-    }
-
-    @Override
-    public boolean equals(Object obj){
-        if(this==obj) return true;
-        if(obj==null||getClass()!=obj.getClass()) return false;
-
-        Position o = (Position) obj;
-
-        return x==o.x &amp;&amp; y==o.y;
-    }
-}
-
-public class Main {
-    static BufferedReader buffer =new BufferedReader(
-					    new InputStreamReader(System.in)
-				    );
-    static StringTokenizer tokens;
-
-
-
-    public static void main(String[] args)throws IOException{
-
-
-        int n = Integer.valueOf(buffer.readLine());
-
-        tokens = new StringTokenizer(buffer.readLine());
-
-        int a = Integer.valueOf(tokens.nextToken());
-        int b = Integer.valueOf(tokens.nextToken());
-
-        Position[] positions = new Position[n];
-
-        Set&lt;Position&gt; set = new HashSet&lt;&gt;();
-
-        for(int i=0; i&lt;n; i++){
-            tokens = new StringTokenizer(buffer.readLine());
-
-            positions[i] = new Position(
-	            Long.valueOf(tokens.nextToken()), 
-	            Long.valueOf(tokens.nextToken())
-	        );
-            set.add(positions[i]);
-        }
-
-
-        int result = 0;
-        for(Position position : positions){
-
-            if(isValid(position, a, b, set)){
-                result++;
-            }
-
-        }
-
-        System.out.println(result);
-
-
-
-
-    }
-
-    private static boolean isValid(Position position, 
-								    int a, 
-								    int b, 
-								    Set&lt;Position&gt; set
-    ) {
-
-        return set.contains(new Position(position.x+a, position.y+b))
-                &amp;&amp;set.contains(new Position(position.x+a, position.y))
-                &amp;&amp;set.contains(new Position(position.x, position.y+b));
-    }
-
-
-}
-Copy<br>시간복잡도를 계산해볼까요?<br>
+<br><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/submit/2121/79462950" rel="noopener" class="external-link" href="https://www.acmicpc.net/submit/2121/79462950" target="_blank">전체 코드는 다음과 같습니다.</a><br>시간복잡도를 계산해볼까요?<br>
 <br>주어진 입력을 Position 객체로 만들어 해시셋에 저장합니다.(=O(n))
 <br>전체 좌표에 대해 순회합니다. (=O(n))
 <br>기준 좌표에 대해서 나머지 3개의 좌표가 존재하는 지 해시를 통해 확인합니다. (=O(3x1))
@@ -174,22 +80,7 @@ Copy<br>class Position implements Comparable&lt;Position&gt;{
         this.x = x;
         this.y = y;
     }
-
-
-    @Override
-    public int hashCode(){
-        return Objects.hash(x,y);
-    }
-
-    @Override
-    public boolean equals(Object obj){
-        if(this==obj) return true;
-        if(obj==null||getClass()!=obj.getClass()) return false;
-
-        Position o = (Position) obj;
-
-        return x==o.x &amp;&amp; y==o.y;
-    }
+	//equals와 compareTo를 오버라이딩한 메서드는 중략... 
 
     @Override
     public int compareTo(Position o){
@@ -236,7 +127,7 @@ result = count_rectangles(points, A, B)
 
 print(result)
 
-Copy<br>해쉬를 사용하는 동일한 풀이를 python으로 작성하고 제출해봤습니다. <br><img src="https://i.imgur.com/mTfnu0R.png" referrerpolicy="no-referrer"><br>자바는 오늘도 연전연패..]]></description><link>알고리즘과-자료구조/hash-함부로-쓰면-메모리-터진다.html</link><guid isPermaLink="false">알고리즘과 자료구조/Hash 함부로 쓰면 메모리 터진다.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 10 Jun 2024 11:21:01 GMT</pubDate><enclosure url="https://i.imgur.com/vhS6I39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/vhS6I39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Java 코드]]></title><description><![CDATA[ 
+Copy<br>해쉬를 사용하는 동일한 풀이를 python으로 작성하고 제출해봤습니다. <br><img src="https://i.imgur.com/mTfnu0R.png" referrerpolicy="no-referrer"><br>자바는 오늘도 연전연패..]]></description><link>알고리즘과-자료구조/hash-함부로-쓰면-메모리-터진다.html</link><guid isPermaLink="false">알고리즘과 자료구조/Hash 함부로 쓰면 메모리 터진다.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 10 Jun 2024 11:29:28 GMT</pubDate><enclosure url="https://i.imgur.com/vhS6I39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/vhS6I39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Java 코드]]></title><description><![CDATA[ 
  <br><br><br>private int binarySearch(int[] arr, int target){
 
 	//이진 탐색을 이용해 정렬된 배열 arr안에서 target 인덱스 반환 

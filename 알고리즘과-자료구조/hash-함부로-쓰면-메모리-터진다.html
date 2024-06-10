@@ -152,111 +152,17 @@ mjx-c.mjx-c3D::before { padding: 0.583em 0.778em 0.082em 0px; content: "="; }
 mjx-c.mjx-c30::before { padding: 0.666em 0.5em 0.022em 0px; content: "0"; }
 mjx-c.mjx-c39::before { padding: 0.666em 0.5em 0.022em 0px; content: "9"; }
 mjx-c.mjx-c35::before { padding: 0.666em 0.5em 0.022em 0px; content: "5"; }
-</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Hash 함부로 쓰면 메모리 터진다"><p dir="auto">Hash 함부로 쓰면 메모리 터진다</p></h1><div class="heading-wrapper"><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="백준 2121 넷이 놀기 (실버3)" dir="auto" class="heading" id="백준_2121_넷이_놀기_(실버3)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>백준 2121 넷이 놀기 (실버3)</h2><div class="heading-children"><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a></p></div><div><p dir="auto">실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 <code>?</code> 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤메기 매우 쉽습니다. 심지어 <strong>테케는 다 돌아가는 악랄한 문제</strong>인데요. <strong>이대로 제출 누르면 실전에서 메모리 초과</strong> 가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. </p></div><div><p dir="auto"><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">문제를 간단히 요약하면 다음과 같습니다. </p></div><div><ol dir="auto">
+</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Hash 함부로 쓰면 메모리 터진다"><p dir="auto">Hash 함부로 쓰면 메모리 터진다</p></h1><div class="heading-wrapper"><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="백준 2121 넷이 놀기 (실버3)" dir="auto" class="heading" id="백준_2121_넷이_놀기_(실버3)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>백준 2121 넷이 놀기 (실버3)</h2><div class="heading-children"><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a></p></div><div><p dir="auto">실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 <code>?</code> 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤메기 매우 쉽습니다. 심지어 <strong>테케는 다 돌아가는 악랄한 문제</strong>인데요. <strong>이대로 제출 누르면 실전에서 메모리 초과</strong> 가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. </p></div><div><p dir="auto">특히 대기업 공채에서 이런 문제에 풀이 잘못 제출할 경우 6개월에서 1년동안 손가락 빨고 있어야합니다. ^^</p></div><div><p dir="auto"><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">문제를 간단히 요약하면 다음과 같습니다. </p></div><div><ol dir="auto">
 <li data-line="0" dir="auto">n개의 좌표가 입력으로 주어진다. </li>
 <li data-line="1" dir="auto">직사각형의 길이 a,b가 주어진다. </li>
 <li data-line="2" dir="auto">n개의 좌표로 직사각형을 만들 때 길이가 일치하는 경우의 수 구하기 </li>
 </ol></div><div><p dir="auto">특이한건 전체 데이터의 개수가 약 10^5 개, 각 값은 long 타입 써야할 정도로 숫자가 매우 큰데요. <strong>전형적인 데이터 개수 &amp; 크기로 내리찍는 문제</strong>입니다. 이 부분을 유의하면서 풀어봅시다. 불행 중 다행으로 전체 경우의 수는 2^31 안으로 나온다했으니, 정답 변수 만큼은 int로 선언할 수 있겠네요.</p></div></div></div><div class="heading-wrapper"><h2 data-heading="풀이 1. 완전탐색" dir="auto" class="heading" id="풀이_1._완전탐색"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>풀이 1. 완전탐색</h2><div class="heading-children"><div><p dir="auto"> 정말 간단하게 접근했을 때의 풀이입니다. 백트래킹이나 4중 반복문을 써서 가능한 모든 조합을 테스트 해보는 것입니다. 먼저 시간 복잡도를 계산해보겠습니다. 백트래킹으로 구현할 경우 조합의 개수 만큼 시간 복잡도가 나옵니다. nC4가 되므로 n=500,000을 넣어 계산해보겠습니다.<br>
-500000C4 = 2,60,385,417,812,487,500(~=10^17)이므로 택도 없는 것을 확인할 수 알 수 있습니다. </p></div></div></div><div class="heading-wrapper"><h2 data-heading="풀이 2. 해시" dir="auto" class="heading" id="풀이_2._해시"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>풀이 2. 해시</h2><div class="heading-children"><div><p dir="auto">그렇다면 고려해볼만한 것은 해시입니다. 풀이는 다음과 같습니다. </p></div><div><p dir="auto"><strong>답안 로직</strong></p></div><div><ol dir="auto">
+500000C4 = 2,60,385,417,812,487,500(~=10^17)이므로 택도 없는 풀이네요.</p></div></div></div><div class="heading-wrapper"><h2 data-heading="풀이 2. 해시" dir="auto" class="heading" id="풀이_2._해시"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>풀이 2. 해시</h2><div class="heading-children"><div><p dir="auto">그렇다면 고려해볼만한 것은 해시입니다. 풀이는 다음과 같습니다. </p></div><div><p dir="auto"><strong>답안 로직</strong></p></div><div><ol dir="auto">
 <li data-line="0" dir="auto">x와 y좌표를 속성으로 갖고 x,y로 고유성을 판별할 수 있는 Position클래스를 정의합니다. </li>
 <li data-line="1" dir="auto">주어진 모든 점을 해시셋에 넣습니다. </li>
 <li data-line="2" dir="auto">가장 왼쪽 아래의 점(x y)을 잡았다 치고 주어진 모든 점을 순회합니다. </li>
 <li data-line="3" dir="auto">해시셋에서 나머지 3개의 점 <code>(x+a, y+b), (x,y+b), (x+a,y)</code> 이 있는지 확인합니다. </li>
-</ol></div><div><p dir="auto"><strong>전체 코드는 다음과 같습니다.</strong> </p></div><div><pre dir="auto" class="language-java" tabindex="0"><code class="language-java is-loaded">
-
-<span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>io<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
-
-
-<span class="token keyword">class</span> <span class="token class-name">Position</span><span class="token punctuation">{</span>
-    <span class="token keyword">long</span> x<span class="token punctuation">,</span> y<span class="token punctuation">;</span>
-
-
-    <span class="token keyword">public</span> <span class="token class-name">Position</span><span class="token punctuation">(</span><span class="token keyword">long</span> x<span class="token punctuation">,</span> <span class="token keyword">long</span> y<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> x<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> y<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">hashCode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token class-name">Objects</span><span class="token punctuation">.</span><span class="token function">hash</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">equals</span><span class="token punctuation">(</span><span class="token class-name">Object</span> obj<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token operator">==</span>obj<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>obj<span class="token operator">==</span><span class="token keyword">null</span><span class="token operator">||</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">!=</span>obj<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Position</span> o <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Position</span><span class="token punctuation">)</span> obj<span class="token punctuation">;</span>
-
-        <span class="token keyword">return</span> x<span class="token operator">==</span>o<span class="token punctuation">.</span>x <span class="token operator">&amp;&amp;</span> y<span class="token operator">==</span>o<span class="token punctuation">.</span>y<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">static</span> <span class="token class-name">BufferedReader</span> buffer <span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">BufferedReader</span><span class="token punctuation">(</span>
-					    <span class="token keyword">new</span> <span class="token class-name">InputStreamReader</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span>
-				    <span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">static</span> <span class="token class-name">StringTokenizer</span> tokens<span class="token punctuation">;</span>
-
-
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token keyword">throws</span> <span class="token class-name">IOException</span><span class="token punctuation">{</span>
-
-
-        <span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>buffer<span class="token punctuation">.</span><span class="token function">readLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        tokens <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringTokenizer</span><span class="token punctuation">(</span>buffer<span class="token punctuation">.</span><span class="token function">readLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>tokens<span class="token punctuation">.</span><span class="token function">nextToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>tokens<span class="token punctuation">.</span><span class="token function">nextToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Position</span><span class="token punctuation">[</span><span class="token punctuation">]</span> positions <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Position</span><span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Position</span><span class="token punctuation">&gt;</span></span> set <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashSet</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            tokens <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringTokenizer</span><span class="token punctuation">(</span>buffer<span class="token punctuation">.</span><span class="token function">readLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            positions<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Position</span><span class="token punctuation">(</span>
-	            <span class="token class-name">Long</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>tokens<span class="token punctuation">.</span><span class="token function">nextToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> 
-	            <span class="token class-name">Long</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>tokens<span class="token punctuation">.</span><span class="token function">nextToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-	        <span class="token punctuation">)</span><span class="token punctuation">;</span>
-            set<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>positions<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-
-        <span class="token keyword">int</span> result <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token class-name">Position</span> position <span class="token operator">:</span> positions<span class="token punctuation">)</span><span class="token punctuation">{</span>
-
-            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">isValid</span><span class="token punctuation">(</span>position<span class="token punctuation">,</span> a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> set<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                result<span class="token operator">++</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-
-        <span class="token punctuation">}</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-
-
-
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">boolean</span> <span class="token function">isValid</span><span class="token punctuation">(</span><span class="token class-name">Position</span> position<span class="token punctuation">,</span> 
-								    <span class="token keyword">int</span> a<span class="token punctuation">,</span> 
-								    <span class="token keyword">int</span> b<span class="token punctuation">,</span> 
-								    <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Position</span><span class="token punctuation">&gt;</span></span> set
-    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-        <span class="token keyword">return</span> set<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Position</span><span class="token punctuation">(</span>position<span class="token punctuation">.</span>x<span class="token operator">+</span>a<span class="token punctuation">,</span> position<span class="token punctuation">.</span>y<span class="token operator">+</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
-                <span class="token operator">&amp;&amp;</span>set<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Position</span><span class="token punctuation">(</span>position<span class="token punctuation">.</span>x<span class="token operator">+</span>a<span class="token punctuation">,</span> position<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">)</span>
-                <span class="token operator">&amp;&amp;</span>set<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Position</span><span class="token punctuation">(</span>position<span class="token punctuation">.</span>x<span class="token punctuation">,</span> position<span class="token punctuation">.</span>y<span class="token operator">+</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-
-<span class="token punctuation">}</span>
-</code><button class="copy-code-button">Copy</button></pre></div><div><p dir="auto"><strong>시간복잡도를 계산해볼까요?</strong></p></div><div><ol dir="auto">
+</ol></div><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/submit/2121/79462950" rel="noopener" class="external-link" href="https://www.acmicpc.net/submit/2121/79462950" target="_blank">전체 코드는 다음과 같습니다.</a></p></div><div><p dir="auto"><strong>시간복잡도를 계산해볼까요?</strong></p></div><div><ol dir="auto">
 <li data-line="0" dir="auto">주어진 입력을 Position 객체로 만들어 해시셋에 저장합니다.(=O(n))</li>
 <li data-line="1" dir="auto">전체 좌표에 대해 순회합니다. (=O(n))</li>
 <li data-line="2" dir="auto">기준 좌표에 대해서 나머지 3개의 좌표가 존재하는 지 해시를 통해 확인합니다. (=O(3x1))</li>
@@ -327,22 +233,7 @@ mjx-c.mjx-c35::before { padding: 0.666em 0.5em 0.022em 0px; content: "5"; }
         <span class="token keyword">this</span><span class="token punctuation">.</span>x <span class="token operator">=</span> x<span class="token punctuation">;</span>
         <span class="token keyword">this</span><span class="token punctuation">.</span>y <span class="token operator">=</span> y<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">hashCode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token class-name">Objects</span><span class="token punctuation">.</span><span class="token function">hash</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">equals</span><span class="token punctuation">(</span><span class="token class-name">Object</span> obj<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token operator">==</span>obj<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>obj<span class="token operator">==</span><span class="token keyword">null</span><span class="token operator">||</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">!=</span>obj<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Position</span> o <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">Position</span><span class="token punctuation">)</span> obj<span class="token punctuation">;</span>
-
-        <span class="token keyword">return</span> x<span class="token operator">==</span>o<span class="token punctuation">.</span>x <span class="token operator">&amp;&amp;</span> y<span class="token operator">==</span>o<span class="token punctuation">.</span>y<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+	<span class="token comment">//equals와 compareTo를 오버라이딩한 메서드는 중략... </span>
 
     <span class="token annotation punctuation">@Override</span>
     <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">compareTo</span><span class="token punctuation">(</span><span class="token class-name">Position</span> o<span class="token punctuation">)</span><span class="token punctuation">{</span>
