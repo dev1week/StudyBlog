@@ -1,4 +1,36 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 12:08:41 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 12:08:40 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 17:38:49 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 17:38:48 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[<font color="#8064a2">Profile.</font>]]></title><description><![CDATA[ 
+ <br><br><br><br>
+안녕하세요. 백엔드 개발자 김한주입니다.<br>
+제 강점은 단순 기능 구현을 넘어 안정적인 상황을 목표로 개발하는 습관입니다.<br>
+또한, 다양한 기술 스택을 효율적으로 결합하여 안정적인 시스템을 만들어 나갑니다.<br>
+이를 위해 새로운 기술이나 도구를 습득하고 프로젝트에 적용하는 것에 있어서도 익숙합니다.
+<br><br><br><br><br><br><br>1.<a data-href="Index 잘 쓰는 방법" href="db/rdb/index-잘-쓰는-방법.html" class="internal-link" target="_self" rel="noopener">Index 잘 쓰는 방법</a><br>
+RDBMS에서 Index를 사용할 때 주의점과 팁을 알아봅니다.
+<br>2.<a data-href="Hash 함부로 쓰면 메모리 터진다" href="알고리즘과-자료구조/hash-함부로-쓰면-메모리-터진다.html" class="internal-link" target="_self" rel="noopener">Hash 함부로 쓰면 메모리 터진다</a><br>
+코테에서 Java의 HashSet을 사용시 메모리가 터질 수 있는 이유와 간단한 계산법을 알아봅니다.
+<br>3.<a data-href="Dynamo DB - 채팅 내역 저장을 위한 키 설계" href="prj/cloudy/dynamo-db-채팅-내역-저장을-위한-키-설계.html" class="internal-link" target="_self" rel="noopener">Dynamo DB - 채팅 내역 저장을 위한 키 설계</a>, <a data-href="RDB와 NoSQL의 차이" href="prj/cloudy/rdb와-nosql의-차이.html" class="internal-link" target="_self" rel="noopener">RDB와 NoSQL의 차이</a><br>
+Cloudy에서 채팅 내역 저장시 Dynamo DB를 활용한 방향을 소개합니다. 
+<br>4.<a data-href="Flux를 활용한 SSE 구현기" href="prj/cloudy/flux를-활용한-sse-구현기.html" class="internal-link" target="_self" rel="noopener">Flux를 활용한 SSE 구현기</a><br>
+Cloudy에서 챗봇 사용자 경험을 위해 Flux를 활용해 SSE를 적용한 개선기를 소개합니다.
+<br>5.<a data-href="콘팅이 서비스를 잘게 쪼갠 이유" href="prj/conting/콘팅이-서비스를-잘게-쪼갠-이유.html" class="internal-link" target="_self" rel="noopener">콘팅이 서비스를 잘게 쪼갠 이유</a><br>
+콘팅의 서비스가 잘게 쪼갠 근거와 그 방향성을 소개합니다. 
+<br><br><br>
+<br>Seoul National Universiry Of Sicence and Technology Major in Electronic IT Media, (2017.02 ~ 2023.02)
+<br>KIST (Korea Institute of Science and Technology / AI &amp; Robot Lab) Intern (2022.09.03 ~ 2023.02.19)
+<br>SSAFY (Samsung Software Academy Foy Youth) 10th Trainnee<br>
+(2023.07~2024.07)
+<br><br><br>
+<br>동계 한국방송미디어공학회 대학생 논문/캡스톤디자인 경진대회 최우수상 (2022.11.19)
+<br>전자IT미디어공학과 캡스톤디자인 경진대회 우수상 (2023.01.16)
+<br>신한은행 해커톤 본선진출 (2023..12)
+<br>삼성 청년 SW 아카데미 1학기 관통 프로젝트 최우수상 (2023.11.24)
+<br>삼성 청년 SW 아카데미 2학기 공통 프로젝트 우수상 (2024.2.29)
+<br>삼성 청년 SW 아카데미 2학기 특화 프로젝트 최우수상 (2024.4.04)
+<br>삼성 청년 SW 아카데미 2학기 기업연계 프로젝트 최우수상 (2024.6.06)
+<br><br><br>
+<br>한국데이터진흥원 SQL Developer 취득 (2022.12.09)
+<br>제7차 현대 Softeer 정기 역량 진단(HSAT) Level3 취득(2023.08.11)
+<br><br><br><img src="https://i.imgur.com/1c4Jlsl.png" referrerpolicy="no-referrer"><br><br><br><img src="https://i.imgur.com/cehUtrI.png" referrerpolicy="no-referrer"><br>]]></description><link>hanju's-study-note.html</link><guid isPermaLink="false">Hanju's Study Note.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 10 Jun 2024 17:38:26 GMT</pubDate><enclosure url="https://i.imgur.com/1c4Jlsl.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/1c4Jlsl.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
  <br><br><br><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a><br>실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 ? 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤매기 매우 쉽습니다. 풀이방향 잘못 잡으면 메모리 초과가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. <br>심지어 python, cpp에서는 문제 없이 통과되는 코드가 Java 특유의 객체지향성과 JVM/GC 특성이 환장의 시너지를 일으켜 통과가 안되는 경우가 꽤 있습니다. (억울) Java 쓴다고 이런 패널티를 받을 수는 없으니, 유의하도록합시다. (혹은 빠른 시일 내에 cpp나 python으로 갈아ㅌ..)<br>대기업 공채에서 이런 문제에 잘못 낚일 경우 6개월에서 1년동안 손가락 빨고 있어야합니다 ㅎㅅㅎ<br><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"><br>문제를 간단히 요약하면 다음과 같습니다. <br>
 <br>n개의 좌표가 입력으로 주어진다. 
 <br>직사각형의 길이 a,b가 주어진다. 
