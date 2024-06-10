@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 11:15:41 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 11:15:41 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.ico</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Jun 2024 11:22:36 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Jun 2024 11:22:35 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[Hash 함부로 쓰면 메모리 터진다]]></title><description><![CDATA[ 
  <br><br><br><a data-tooltip-position="top" aria-label="https://www.acmicpc.net/problem/2121" rel="noopener" class="external-link" href="https://www.acmicpc.net/problem/2121" target="_blank">문제풀어보기</a><br>실버 3의 비교적 쉬운 문제처럼 보이는데요. 위 문제는 생각없이 풀면 머리에 ? 띄우기 딱 좋은 문제입니다. 특히 잘못된 풀이의 경우 논리적, 시간복잡도 측면에서도 틀린 것이 전혀 없기 때문에 헤메기 매우 쉽습니다. 심지어 테케는 다 돌아가는 악랄한 문제인데요. 이대로 제출 누르면 실전에서 메모리 초과 가 발생하기 때문에, 공간복잡도를 건드는 문제는 조심해서 접근해야합니다. <br><img src="https://i.imgur.com/vhS6I39.png" referrerpolicy="no-referrer"><br>문제를 간단히 요약하면 다음과 같습니다. <br>
 <br>n개의 좌표가 입력으로 주어진다. 
 <br>직사각형의 길이 a,b가 주어진다. 
@@ -104,9 +104,9 @@ public class Main {
 
 }
 Copy<br>시간복잡도를 계산해볼까요?<br>
-<br>주어진 입력을 Position 객체로 만들어 해시셋에 저장합니다.
+<br>주어진 입력을 Position 객체로 만들어 해시셋에 저장합니다.(=O(n))
 <br>전체 좌표에 대해 순회합니다. (=O(n))
-<br>기준 좌표에 대해서 나머지 3개의 좌표가 존재하는 지 해시를 통해 확인합니다. (=O(3*1))
+<br>기준 좌표에 대해서 나머지 3개의 좌표가 존재하는 지 해시를 통해 확인합니다. (=O(3x1))
 <br>전체 시간 복잡도는 다음과 같습니다. O(n+3*n) = O(n)
 <br>전체 시간복잡도는 O(n)으로 매우 무난하게 통과해야하는데요. <br><img src="https://i.imgur.com/l3ixUdK.png" referrerpolicy="no-referrer"><br>????????<br>보시는 바와 같이, 메모리 초과가 발생합니다. 왜 메모리 초과가 발생할까요? 그리고 실전에서 이와 같은 풀이를 방지하려면 어떻게 해야할까요??<br><br>128MB 메모리 제한이 있을 때, Set&lt;Position&gt;가 최대 몇 개의 키를 가질 수 있는지 계산하기 위해서는 각 Position 객체가 차지하는 메모리 크기를 알아야 합니다. 이를 위해 Position 클래스의 메모리 크기를 분석해야 합니다.<br>Position 클래스는 두 개의 long 필드를 가지고 있습니다. long 타입은 64비트(8바이트)이므로, 두 개의 long 필드는 16바이트를 차지합니다. 그러나 Java 객체에는 추가적인 오버헤드가 존재합니다.<br>Java 객체의 메모리 오버헤드는 다음과 같이 계산됩니다:<br>
 <br><a data-href="객체 헤더" href="java/객체-헤더.html" class="internal-link" target="_self" rel="noopener">객체 헤더</a>: 12바이트 (8바이트는 기본 객체 헤더, 4바이트는 정렬 패딩)
@@ -125,21 +125,21 @@ Copy<br>시간복잡도를 계산해볼까요?<br>
 for (int i = 0; i &lt; n; i++) {
 	tokens = new StringTokenizer(buffer.readLine());
 
-		positions[i] = new Position(
-			Long.valueOf(tokens.nextToken()), 
-			Long.valueOf(tokens.nextToken())
-			);
-        }
+	positions[i] = new Position(
+		Long.valueOf(tokens.nextToken()), 
+		Long.valueOf(tokens.nextToken())
+		);
+	}
 
-        Arrays.sort(positions);
+Arrays.sort(positions);
 Copy<br>전체 좌표를 순회하며 좌하단으로 고정했을 때 나머지 3개의 좌표가 있을 때만 세는 코드입니다.<br>long result = Arrays.stream(positions)
                 .filter(p-&gt;isValid(positions, p, a,b))
                 .count();
 Copy<br>
 private static boolean isValid(Position[] positions, Position position, int a, int b){
-	return binarySearch(positions, position.x+a, position.y+b)
-			&amp;&amp;binarySearch(positions, position.x, position.y+b)
-			&amp;&amp;binarySearch(positions, position.x+a, position.y);
+	return binarySearch(positions, position.x+a, position.y+b)&amp;&amp;
+			binarySearch(positions, position.x, position.y+b)&amp;&amp;
+			binarySearch(positions, position.x+a, position.y);
 
 }
 Copy<br>객체의 comparable 인터페이스를 구현하여 두 종류 이상의 변수가 있어도 쉽게 이진탐색을 수행하는 코드입니다. <br>
@@ -236,7 +236,7 @@ result = count_rectangles(points, A, B)
 
 print(result)
 
-Copy<br>해쉬를 사용하는 동일한 풀이를 python으로 작성하고 제출해봤습니다. <br><img src="https://i.imgur.com/mTfnu0R.png" referrerpolicy="no-referrer"><br>자바는 오늘도 연전연패..]]></description><link>알고리즘과-자료구조/hash-함부로-쓰면-메모리-터진다.html</link><guid isPermaLink="false">알고리즘과 자료구조/Hash 함부로 쓰면 메모리 터진다.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 10 Jun 2024 11:15:27 GMT</pubDate><enclosure url="https://i.imgur.com/vhS6I39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/vhS6I39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Java 코드]]></title><description><![CDATA[ 
+Copy<br>해쉬를 사용하는 동일한 풀이를 python으로 작성하고 제출해봤습니다. <br><img src="https://i.imgur.com/mTfnu0R.png" referrerpolicy="no-referrer"><br>자바는 오늘도 연전연패..]]></description><link>알고리즘과-자료구조/hash-함부로-쓰면-메모리-터진다.html</link><guid isPermaLink="false">알고리즘과 자료구조/Hash 함부로 쓰면 메모리 터진다.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 10 Jun 2024 11:21:01 GMT</pubDate><enclosure url="https://i.imgur.com/vhS6I39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/vhS6I39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Java 코드]]></title><description><![CDATA[ 
  <br><br><br>private int binarySearch(int[] arr, int target){
 
 	//이진 탐색을 이용해 정렬된 배열 arr안에서 target 인덱스 반환 
