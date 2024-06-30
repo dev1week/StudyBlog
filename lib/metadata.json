@@ -1,6 +1,6 @@
 {
   "vaultName": "Hanju",
-  "lastExport": 1718988665950,
+  "lastExport": 1719761127357,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon AT-row",
   "useCustomHeadContent": false,
@@ -75,6 +75,7 @@
     "알고리즘과 자료구조/자료구조/큐.md",
     "알고리즘과 자료구조/자료구조/트리맵.md",
     "알고리즘과 자료구조/자료구조/해시맵.md",
+    "알고리즘과 자료구조/세그먼트 트리.md",
     "알고리즘과 자료구조/알고리즘과 자료구조.md",
     "알고리즘과 자료구조/Hash 함부로 쓰면 메모리 터진다.md",
     "운영체제/운영체제 정리.canvas",
@@ -91,6 +92,7 @@
     "Java/Enum.md",
     "Java/Java의 불변성.md",
     "Java/Record.md",
+    "MSA/DDD/마이크로 서비스.md",
     "Prj/Cloudy/Cloudy의 RAG 도입기.md",
     "Prj/Cloudy/Dynamo DB - 채팅 내역 저장을 위한 키 설계.md",
     "Prj/Cloudy/Flux를 활용한 SSE 구현기.md",
@@ -99,6 +101,7 @@
     "Prj/Conting/콘팅의 철저한 검표 시스템.md",
     "Prj/Conting/콘팅의 AuthCapturePattern 도입기.md",
     "Prj/Conting/콘팅이 서비스를 잘게 쪼갠 이유.md",
+    "Spring/OAuth 2.0/OAuth 2.0이란.md",
     "Spring/Security/초기화 과정 이해/0. 초기화 과정 이해.md",
     "Spring/Security/초기화 과정 이해/1. Security에서 제공하는 기본 보안(자동설정).md",
     "Spring/Security/초기화 과정 이해/2. SecurityBuilder와 SecurityConfigure.md",
@@ -698,8 +701,8 @@
       "dependencies": []
     },
     "Hanju's Study Note.md": {
-      "modifiedTime": 1718041128805,
-      "sourceSize": 2865,
+      "modifiedTime": 1719761127357,
+      "sourceSize": 2811,
       "exportedPath": "hanju's-study-note.html",
       "dependencies": []
     },
@@ -728,139 +731,139 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1718988665950,
-      "sourceSize": 112581,
+      "modifiedTime": 1719761127357,
+      "sourceSize": 117946,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
@@ -872,49 +875,49 @@
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1718988665950,
-      "sourceSize": 7148,
+      "modifiedTime": 1719761127357,
+      "sourceSize": 7275,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1718988665950,
-      "sourceSize": 130183,
+      "modifiedTime": 1719761127357,
+      "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 19030,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 23919,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1718988665950,
-      "sourceSize": 487,
+      "modifiedTime": 1719761127357,
+      "sourceSize": 458,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 371,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 114,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -932,7 +935,7 @@
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1718988665950,
+      "modifiedTime": 1719761127357,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -1157,6 +1160,24 @@
       "modifiedTime": 1718988665950,
       "sourceSize": 37,
       "exportedPath": "spring/aop.html",
+      "dependencies": []
+    },
+    "알고리즘과 자료구조/세그먼트 트리.md": {
+      "modifiedTime": 1719761127357,
+      "sourceSize": 6496,
+      "exportedPath": "알고리즘과-자료구조/세그먼트-트리.html",
+      "dependencies": []
+    },
+    "MSA/DDD/마이크로 서비스.md": {
+      "modifiedTime": 1719761127357,
+      "sourceSize": 2045,
+      "exportedPath": "msa/ddd/마이크로-서비스.html",
+      "dependencies": []
+    },
+    "Spring/OAuth 2.0/OAuth 2.0이란.md": {
+      "modifiedTime": 1719761127357,
+      "sourceSize": 283,
+      "exportedPath": "spring/oauth-2.0/oauth-2.0이란.html",
       "dependencies": []
     }
   }
