@@ -1,7 +1,20 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 01 Jul 2024 15:58:44 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 01 Jul 2024 15:58:44 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[OAuth 2.0 Grant Type]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hanju]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Hanju</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 02 Jul 2024 15:45:23 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 02 Jul 2024 15:45:22 GMT</pubDate><copyright><![CDATA[1week]]></copyright><ttl>60</ttl><dc:creator>1week</dc:creator><item><title><![CDATA[OAuth 2.0 Grant Type]]></title><description><![CDATA[ 
  <br><br><br><br>
 권한부여란 클라이언트가 사용자를 대신하여 사용자의 승인 하에 인가서버로부터 권한을 부여 받는 것을 의미합니다. 
-<br><br><br><img src="https://i.imgur.com/tH8wk0z.png" referrerpolicy="no-referrer">]]></description><link>spring/oauth-2.0/oauth-2.0-grant-type.html</link><guid isPermaLink="false">Spring/OAuth 2.0/OAuth 2.0 Grant Type.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:14:59 GMT</pubDate><enclosure url="https://i.imgur.com/tH8wk0z.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/tH8wk0z.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[OAuth 2.0이란]]></title><description><![CDATA[ 
+<br><br><br><img src="https://i.imgur.com/tH8wk0z.png" referrerpolicy="no-referrer"><br><br><br><br><br>흐름<br>
+1: 인가서버에게 code를 요청<br>
+<img src="https://i.imgur.com/WHI2uf0.png" referrerpolicy="no-referrer"><br>
+2: 사용자의 승인 후 인가서버가 클라이언트에게 코드를 발급한다.<br>
+<img src="https://i.imgur.com/6XFPToo.png" referrerpolicy="no-referrer"><br>3: 앱은 해당 임시 코드를 인가서버로 전달하고 액세스 토큰으로 교환한다.<br>
+<img src="https://i.imgur.com/fh7yw0S.png" referrerpolicy="no-referrer"><br>특징<br>
+1: 앱이 액세스 토큰을 요청 시, 해당 요청을 클라이언트 암호로 인증할 수 있습니다.<br>
+-&gt; 공격자가 인증 코드를 가로채 스스로 사용할 위험이 줄어듭니다.<br>
+2: 액세스 토큰이 클라이언트에 표시되지 않습니다.<br>
+-&gt; 토큰이 다른 사람에게 노출될 확률이 줄어듭니다. <br>권한 부여 요청 시 필요한 매개변수 <br><br>액세스 토큰 교환 요청 시 매개변수 <br><br><br>코드 교환을 위한 증명 키로서 CSRF 및 권한부여코드 삽입 공격을 방지하기 위한 Authorization Code Grant Flow의 확장 버전입니다. 권한부여코드 요청 시 Code Verifier와 Code Challenge를 추가하여 만약 Authorization Code Grant Flow에서 Authorization Code가 탈취당했을 때, 액세스 토큰을 발급 받지 못하도록 차단합니다. 모든 유형의 OAuth2 클라이언트, 심지어 웹서버 양측 모두 유용합니다. <br><br>Code Verifier<br>
+권한부여코드 요청 전 앱이 원래 생성한 PKCE 요청에 대한 코드 검증기입니다. 48~128 글자수를 가진 무작위 문자열이며, A-Z,a-z,0-9의 아스키 문자로만 구성됩니다. <br>Code Challenge<br>
+선택한 Hash 알고리즘으로 Code Verifier를 Hashing한 후 Base64 인코딩을 한 값입니다. <br>Code Challenge Method<br>
+plain : Code Verifier가 특정한 알고리즘을 사용하지 않도록 설정합니다.<br>
+S256 : Code Verifier 해시 알고리즘을 사용하도록 설정합니다. ]]></description><link>spring/oauth-2.0/oauth-2.0-grant-type.html</link><guid isPermaLink="false">Spring/OAuth 2.0/OAuth 2.0 Grant Type.md</guid><dc:creator><![CDATA[1week]]></dc:creator><pubDate>Tue, 02 Jul 2024 15:33:34 GMT</pubDate><enclosure url="https://i.imgur.com/tH8wk0z.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://i.imgur.com/tH8wk0z.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[OAuth 2.0이란]]></title><description><![CDATA[ 
  <br><br><br>Open + Authorization의 약자입니다. OAuth 2.0인가 사용자가 속한 사이트의 보호된 자원에 대해 앱의 접근을 허용하도록 승인하는 것을 의미합니다. RFC표준 6749에서 처음 등장하였습니다. <br>인가서버가 애플리케이션에게 권한을 부여합니다. <br><br><br><img src="https://i.imgur.com/ulSOeLn.png" referrerpolicy="no-referrer"><br>
 <br>해당하는 계정을 로그인하는 창을 띄운다. 
 <br>id와 비밀번호를 입력받아 그대로 공급자(google, naver, kakao)에게 post요청을 보낸다. 
